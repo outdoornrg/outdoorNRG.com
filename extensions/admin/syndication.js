@@ -996,7 +996,9 @@ $ul.appendTo($D);
 				},
 			
 			
-			
+//executed when 'save' or 'test' is pushed in the ebay launch profile editor.
+//loads all the data from the form into a json object, including proper formatting of the data-tables for shipping services.
+//NOTE - 'update' is a destructive process in this case.
 			ebayProfileUpdateOrTest : function(mode,$form)	{
 
 
@@ -1011,7 +1013,7 @@ if(mode == 'test' || mode == 'update')	{
 
 					//the domestic and international shipping sections use the 'data table' technology.
 					//their contents need formatted and saved to the serialized form object.
-					function setShipping(type)	{
+					function setShippingServices(type)	{
 						//type needs to be 'dom' or 'int'
 						var $shipping = $("[data-app-role='ebayShippingTbody_"+type+"']:first",$form).find('tr');
 						if($shipping.length)	{
@@ -1040,14 +1042,24 @@ if(mode == 'test' || mode == 'update')	{
 							}
 						}
 					
-					setShipping('dom');
-					setShipping('int');
+					setShippingServices('dom');
+					setShippingServices('int');
 //form inputs used in shipping. shouldn't be saved into the profile. Won't hurt, but let's keep it clean.
 delete sfo.cost
 delete sfo.farcost
 delete sfo.service
 delete sfo.addcost
 delete sfo.free
+
+//app.u.dump('sfo["Item/\DisableBuyerRequirements/\@BOOLEAN"]: '+sfo["Item\DisableBuyerRequirements\@BOOLEAN"]); // app.u.dump(sfo);
+//if(sfo["Item\DisableBuyerRequirements\@BOOLEAN"] == 0)	{
+//app.u.dump("MATCH!!!!!!!!!!!!!!!!!!!!!!");
+//	for(index in sfo)	{
+//		if(index.indexOf('BuyerRequirementDetails') >= 0)	{
+//			delete sfo[index];
+//			}
+//		}
+//	}
 
 					sfo._cmd = CMD;
 					sfo._tag = {
