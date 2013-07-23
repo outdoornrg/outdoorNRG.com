@@ -633,9 +633,8 @@ app.model.dispatchThis('mutable');
 		handleOptionEditorInputs : function($target,data)	{
 //			app.u.dump("BEGIN admin_prodEdit.u.handleOptionEditorInputs. type: "+data.type); app.u.dump(data);
 			$("[name='html']",$target).val(unescape($("[name='html']",$target).val()))
-			if(data.inv)	{
-				$('.invOnly',$target).removeClass('displayNone');
-				}
+			if(Number(data.inv))	{} else {$('.nonInvOnly',$target).removeClass('displayNone')}
+
 			if(data.type == 'imgselect' || data.type == 'imggrid')	{
 //				app.u.dump(" -> type is image based. show image inputs.");
 				$('.imgOnly',$target).removeClass('displayNone');
