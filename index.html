@@ -123,16 +123,62 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
 				<div class="pointer"
 					onMouseOver="app.ext.store_outdoorNRG.a.showDropDown($(this));"
 					onMouseOut="app.ext.store_outdoorNRG.a.hideDropDown($(this));">
-					<div onClick="return showContent('category',{'navcat' : '.a_engineering_software'});" class="mainNavLinks mainNavLine">3D Software</div>
-						<div class="dropdown displayNone">
-						</div>
+					<div class="mainNavLinks mainNavLine" onClick="return showContent('category',{'navcat' : '.nrg.firearms'});">Firearms</div>
+					<div class="dropdown displayNone" data-width="195px">
+						<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.firearms.handguns'});">Handguns</div>
+						<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.firearms.handguns.semi-auto_pistols'});">Semi-Auto Pistols</div>
+					</div>
 				</div>
 				<div class="pointer"
 					onMouseOver="app.ext.store_outdoorNRG.a.showDropDown($(this));"
 					onMouseOut="app.ext.store_outdoorNRG.a.hideDropDown($(this));">
-					<div onClick="return showContent('category',{'navcat' : '.ascannr'});" class="mainNavLinks mainNavLine">3D Scanners</div>
-						<div class="dropdown displayNone">
+					<div class="mainNavLinks mainNavLine" onClick="return showContent('category',{'navcat' : '.nrg.hunting'});">Hunting</div>
+						<div class="dropdown displayNone" data-width="200px">
+							<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting.archery'});" 
+								onMouseOver='app.ext.store_outdoorNRG.a.showHoverout($(this).parent().parent(),1);' 
+								onMouseOut='app.ext.store_outdoorNRG.a.hideHoverout($(this).parent().parent(), 1);'>Archery</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting___shooting'});" 
+								onMouseOver='app.ext.store_outdoorNRG.a.showHoverout($(this).parent().parent(),6);' 
+								onMouseOut='app.ext.store_outdoorNRG.a.hideHoverout($(this).parent().parent(), 6);'>Shooting Accessories</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting.decoys'});">Decoys</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting.game_calls'});">Game Calls</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting.hunting_seats___stools'});">Hunting Seats/Stool</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting.optics'});">Optics</div>
 						</div>
+						<div class="hoverout" data-index="1" data-width="128" data-top='34' onMouseOver='app.ext.store_outdoorNRG.a.showHoverout($(this).parent(),1);' onMouseOut='app.ext.store_outdoorNRG.a.hideHoverout($(this).parent(), 1);'>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting.archery.bows'});">Bows</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting.archery.bows.compound'});">Compound</div>
+						</div>
+						<div class="hoverout" data-index="6" data-width="220" data-top='69' onMouseOver='app.ext.store_outdoorNRG.a.showHoverout($(this).parent(),6);' onMouseOut='app.ext.store_outdoorNRG.a.hideHoverout($(this).parent(), 6);'>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting___shooting.ammo___accessory_cases'});">Ammo / Accessory Cases</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting___shooting.ammunition.handgun.by_caliber.40_s_w'});">.40 S&W Ammunition</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting___shooting.ammunition.handgun.hornady'});">Hornady Ammunition</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting___shooting.archery_cases'});">Archery Cases</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting___shooting.gear_boxes'});">Gear Boxes</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting___shooting.gun_maintenance'});">Gun Maintenance</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'..nrg.hunting___shooting.gun_safes'});">Gun Safes</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting___shooting.handgun_cases'});">Gun Cases</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting___shooting.reloading_products'});">Relading Products</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting___shooting.shooting_accessories'});">Hunt/Shoot Accessories</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting___shooting.shooting_rests'});">Shooting Rests</div>
+							<div onClick="app.ext.store_outdoorNRG.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.nrg.hunting___shooting.target_shooting'});">Target Shooting</div>
+						</div>
+				</div>
+				<!--
+				<div class="pointer"
+					onMouseOver="app.ext.store_outdoorNRG.a.showDropDown($(this));"
+					onMouseOut="app.ext.store_outdoorNRG.a.hideDropDown($(this));">
+					<div class="mainNavLinks mainNavLine" onClick="return showContent('category',{'navcat' : '.d_personal_3d_printers'});">Personal 3D Printers</div>
+					<div class="dropdown displayNone" data-width="195px">
+						<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.cube'});">Cube</div>
+						<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.cubex'});">CubeX</div>
+						<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.felix_printers'});">Felix Robotics Printers</div>
+						<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.projet_personal_printers'});">ProJet Personal Printers</div>
+						<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.z-printers'});">ProJet x60 ColorJet</div>
+						<!-- Remove this when you add products to category
+						<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.zused_equipment'});">Demo/Used Printers</div>
+
+					</div>
 				</div>
 				<div class="pointer"
 					onMouseOver="app.ext.store_outdoorNRG.a.showDropDown($(this));"
@@ -146,7 +192,6 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
 						<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.z-printers'});">ProJet x60 ColorJet</div>
 						<!-- Remove this when you add products to category
 						<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.zused_equipment'});">Demo/Used Printers</div>
-						-->
 					</div>
 				</div>
 				<div class="pointer"
@@ -160,7 +205,6 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
 						<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.g_professional_3d_printers.projet_6000-7000'});">ProJet 6000-7000</div>
 						<!-- Remove this when you add products to category
 						<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.g_professional_3d_printers.zdemo_used_pro_printers'});">Demo/Used Printers</div>
-						-->
 					</div>
 				</div>
 				<div class="pointer"
@@ -237,6 +281,7 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
 							<div onClick="app.ext.store_outdoorNRG.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.ultrasonic_baths.ups_systems'});">UPS Systems</div>
 						</div>
 				</div>
+						-->
         </div>
 		<!--					
 		<ul class='topLinks'>
