@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background-image:url('images/GP3Dbackgroundtile.jpg');	font-family: 'PT Sans', sans-serif; color:#666666;
+	background-color:#eadecb;	font-family: 'PT Sans', sans-serif; color:#666666;
 }
 
 #appView {
@@ -54,34 +54,34 @@ HEADER
 /* links above logo/search */
 .topNav {
 	height: 34px;
-	background: #e4e4e4;
-	color: #393b42;
+	background: #283f33;
+	color: #f6f7f6;
 	font-size:.9em;
 	line-height:34px;
 	}
 
-.topNav a	{color:#393b42; text-decoration:none; padding:0 12px;}
+.topNav a	{color:#f6f7f6; text-decoration:none; padding:0 12px;}
 
 /* logo and search */
 
 .logoSearchContainer {	
 	margin-left: auto;
   	margin-right: auto;
-	padding: 16px 0;
+	padding: 10px 0;
 	}
 
 
 /* logo and search */
 
-#logo {float: left; width:375px; height:52px;}
+#logo {float: left; width:375px; height:100px; background-color: #f6f7f6;}
 
 .searchBarContainer {
 	margin-top: 6px;
 	float: right;
-	height: 20px;	
+	height: 70px;	
 	}
 .searchBarQuestions{
-	color: #555555;
+	color: #f6f7f6;
     float: right;
     font-size: 18px;
     font-weight: bold;
@@ -97,7 +97,7 @@ HEADER
 	height: 35px;
 	text-align: center;
 	font-weight: bold;
-	background: #a3033d;
+	background: #362a19;
 	border: 0 none;
 	color: white;
 	}
@@ -106,7 +106,7 @@ HEADER
 /* links under logo and search */
 
 .mainNavContainer	{
-	background: #393b42;
+	background: #362a19;
 	height: 34px;
 	position:relative;
 	overflow:visible;
@@ -207,14 +207,14 @@ FOOTER
 }
 
 #footerLinks {
-	background: #e4e4e4;
+	background: #DDC9A8;
 	margin-left: auto;
   	margin-right: auto;
 }
 
 .listHead {
 	font-family: "Arial Black", Gadget, sans-serif;
-	color: #555555; font-weight:bold;
+	color: #283f33; font-weight:bold;
 }
 
 .bottomLinkListContainer {
@@ -295,7 +295,7 @@ HOMEPAGE
 	}
 
 
-.listHeader	{line-height:34px; padding:0 12px; margin-bottom:6px; background-color: #E4E4E4; color:#555555; border: 1px solid #777777;}
+.listHeader	{line-height:34px; padding:0 12px; margin-bottom:6px; background-color: #283f33 ; color:#f6f7f6;}
 .listHeader a	{color:#555555;}
 
 

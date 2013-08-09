@@ -25,7 +25,7 @@ var app = {vars:{
 	"_clientid":"zmvc",
 	"checkoutAuthMode" : "passive", //can be passive, active or required
 	"baseURL":"",
-	"testURL":"http://app.getprinting3d.com/" //put your domain here. you can then test locally in firefox.
+	"testURL":"http://app.outdoornrg.com/" //put your domain here. you can then test locally in firefox.
 	},u:{},rq:[]};
 
 //set base url so images, css, js, etc all load from appropriate location once deployed.
@@ -72,7 +72,7 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
 
 <!-- what is displayed onLoad until the view is loaded -->
 <div id='appPreView'>
-	<div class='logo'><!-- PUT YOUR LOGO HERE --></div>
+	<div class='logo'><img src="images/logo.png"></div>
 	<div id="loader" class='alignCenter'>
 		<h3>Loading Your Shopping Experience</h3>
 
@@ -110,7 +110,7 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
 				<img src="images/logo.png">
 			</div>
         	<div class='searchBarContainer'>
-				<div class="searchBarQuestions">Questions? Call (855)-50GET3D</div>
+				<div class="searchBarQuestions">Questions? Call 855-000-0000</div>
 				<form name='headerSearchFrm' action='#' class='productSearchForm' method="get" id="searchFunc">
 					<input type='search' name='KEYWORDS' class="productSearchKeyword handleDefault" placeholder="Find it here..." id="searchBar"/>
 					<input class="search pointer" type="submit" value="Search" id="searchButton" />
@@ -395,31 +395,24 @@ COMMONLY EDITED TEMPLATES
 	<div class='mainBannerContainer clearfix'>
 		
 		<div class='mainBannerGraphic pointer'>
-			<img src='images/GP3DZoovycoverCubeSlide1.jpg' alt='' />
-			<img src='images/GP3DZoovycoverGeoScanSlide2.jpg' alt='' />
-			<img src='images/GP3DZoovycoverMaterialsSlide3.jpg' alt='' />
-			<img src='images/GP3DZoovycoverproJetsSlide4.jpg' alt='' />
-			<img src='images/GP3DZoovycoverCNCSlide5.jpg' alt='' />
+			<img src='images/banner1.jpg' height="280" width="750" alt='' />
+			<img src='images/banner2.jpg' height="280" width="750" alt='' />
+			<img src='images/banner3.jpg' height="280" width="750" alt='' />
 		</div>
 		
 		<div class='mainBannerSidebar'>
-			<a href="#" onClick="return showContent('category',{'navcat' : '.retail_locations'});"><img src="images/SideBarBannerEvanstonOpen.jpg"/></a>
+			<a href="#" onClick="return showContent('category',{'navcat' : '.retail_locations'});"><img src="images/sideBannertemp.jpg"/></a>
 			<!-- Taking out bar for time being<img src="images/sideBannerBar.jpg"/> -->
-			<a href="#" onClick="return showContent('category',{'navcat' : '.n_materials___consumables.cube'});"><img class="mainBannerSideBarBottom" src="images/SideBarBannersCubeMaterial.jpg"/></a>
-		</div>
-		<div class='mainBannerBottom'>
-			<img src="images/3BottomBanner1.jpg"/>
-			<a href="#" onClick="return showContent('category',{'navcat' : '.retail_locations'});"><img src="images/3BottomBanner2.jpg"/></a>
-			<a href="#" onClick="return showContent('company',{'show' : 'contact'})"><img src="images/3BottomBanner3.jpg"/></a>
-		</div>		
+			<a href="#" onClick="return showContent('category',{'navcat' : '.n_materials___consumables.cube'});"><img class="mainBannerSideBarBottom" src="images/sideBannertemp.jpg"/></a>
+		</div>	
 	</div>
         
 
 	<section id='newArrivals'>	
 		<div class='listHeader'>
-			<h2>Popular Products</h2>
+			<h2>Featured Items</h2>
 		</div>
-			<ul data-bind="var: list($new_products.@products); format: productList; editor: finder; extension: store_prodlist; loadsTemplate: productListTemplate; withReviews:1; items_per_page: 25; hide_summary:1;" class='listStyleNone fluidList clearfix noPadOrMargin productList'></ul>
+			<ul data-bind="var: list($nrg-best.@products); format: productList; editor: finder; extension: store_prodlist; loadsTemplate: productListTemplate; withReviews:1; items_per_page: 8; hide_summary:1;" class='listStyleNone fluidList clearfix noPadOrMargin productList'></ul>
 	</section>
 
 <!--	
@@ -431,7 +424,7 @@ COMMONLY EDITED TEMPLATES
 	</section>
 	-->
 	
-	<div class='pointer bottomBanner' href="#" onClick="return showContent('category',{'navcat' : '.g_professional_3d_printers.3d_systems_zprinters'});"><img src='images/bottomBanner.jpg' alt='' /></div>
+	<div class='pointer bottomBanner' href="#" onClick="return showContent('category',{'navcat' : '.g_professional_3d_printers.3d_systems_zprinters'});"><img src='images/bottomBannertemp.jpg' alt='' /></div>
 
 </div>
 

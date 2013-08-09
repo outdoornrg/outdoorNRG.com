@@ -57,11 +57,11 @@ button.quickView	{
 	font-weight: light;
 	text-decoration:none;
 	font-size:16px;
-	color: 	#F0F5ee;
+	color: 	#f6f7f6;
 	line-height: 28px;
 	}
 .mainNavContainer div:hover	{
-	color: #73cc59;
+	color: #ddc9a8;
 	}
 .mainNavContainer .mainNavLinks{
 	display:block;
@@ -69,7 +69,7 @@ button.quickView	{
 }
 .mainNavContainer > div{float:left; position:relative;}
 .mainNavLine{
-	border-right: 2px solid #555555;
+	border-right: 2px solid #9c7d53;
 	height: 30px;
 	margin-top:2px;
 	padding: 0px 16px;
@@ -79,7 +79,7 @@ button.quickView	{
 }
 .dropdown {
 	overflow: hidden;
-	background: #292b32;
+	background: #362a19;
 	position: absolute;
 	z-index:999;
 	top:34px;
@@ -88,7 +88,7 @@ button.quickView	{
 	border-radius: 0px 0px 7px 7px;
 }
 .dropdown > div {
-    border-top: 2px solid #555555;
+    border-top: 2px solid #9C7D53;
     font-size: 14px;
     line-height: 33px;
     padding: 0 12px;
@@ -96,13 +96,13 @@ button.quickView	{
 .hoverout {
 	position:absolute;
 	width:0px;
-	background: #292b32;
+	background: #362a19;
 	overflow:hidden;
-	border-radius: 0px 0px 7px 7px;
+	border-radius: 7px;
 	
 }
 .hoverout div{
-    border-top: 2px solid #555555;
+    border-top: 2px solid #9c7d53;
     padding: 0 35px;
 	font-size: 14px;
     line-height: 33px;
@@ -110,7 +110,7 @@ button.quickView	{
 
 .mainBannerContainer {
 	overflow:hidden;
-	margin:3px 0px 10px 0px;
+	margin:5px 0px;
 	position:relative;
 	}
 
@@ -140,9 +140,6 @@ button.quickView	{
 
 .bottomBanner img{
 	width:100%;
-}
-.listHeader{
-	border-radius:6px;
 }
 .productPage h1	{font-size:1.2em; margin-bottom:12px;}
 
