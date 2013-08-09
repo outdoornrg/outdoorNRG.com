@@ -423,7 +423,7 @@ li.productListItem	{width:23%; margin:0px 10px 24px 10px; background: #ffffff;}
 	width: 60%;
 	float: left;
 	font-family: "Arial Black", Gadget, sans-serif;
-	color: 	#666666;
+	color: 	#283f33;
 	text-align: center;
 	font-size: 1.2em;
 	line-height:1em; /* reduced line-height to nestle reviews in closer */
@@ -437,8 +437,8 @@ li.productListItem	{width:23%; margin:0px 10px 24px 10px; background: #ffffff;}
 	text-align: center;
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size-adjust: 80%;
-	color: white;
-	background-color: #666666;	
+	color: #f6f7f6;
+	background-color: #283f33;	
 }
 
 /* search results */
@@ -470,7 +470,7 @@ li.productListItem	{width:23%; margin:0px 10px 24px 10px; background: #ffffff;}
 	z-index:95;
 	}
 
-button.quickView	{border:0; background:url(app-fashion/quickview-90x30.png) no-repeat; padding:0; margin:0; text-indent:-10000px; width:90px; height:30px; z-index:95; cursor:pointer;}
+button.quickView	{border:0; background:url(app-fashion/quickview-90x30.png) no-repeat; padding:0; margin:0; width:90px; height:30px; z-index:95; cursor:pointer;}
 
 
 
@@ -504,7 +504,7 @@ button.quickView	{border:0; background:url(app-fashion/quickview-90x30.png) no-r
 
 .productListItem .tagSprite	{background-image:url(app-fashion/tags-75x97.png); background-repeat:no-repeat; display:none; width:50px; height:23px;}
 .productListItem .tagsContainer	{height:23px; overflow:hidden; left:-50px;} /* show only 1 tag in a list format */
-.productListItem .imageAndTags {position:relative; width:190px; height:190px; border:1px solid #efefef; box-sizing:content-box;}
+.productListItem .imageAndTags {position:relative; width:190px; height:190px; box-sizing:content-box;}
 .productListItem .prodThumbContainer	{background:#efefef; position:absolute; top:0; left:0; z-index:20;} /* bg is so tags don't show thru if no pic is present */
 
 .productListItem .is_newarrival	{background-position: 0 0; display:inline-block;}

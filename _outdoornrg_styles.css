@@ -28,10 +28,10 @@
 	font-size: 18px;
 }	
 button.quickView	{
-	border:1px solid #555555; 
+	border:1px solid #362a19; 
 	border-radius: 6px;
-	background:#e4e4e4 no-repeat; 
-	color: #393b42;
+	background:#ddc9a8 no-repeat; 
+	color: #362a19;
 	padding:0; 
 	margin:0; 
 	width:84px; 
