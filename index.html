@@ -10,6 +10,7 @@
 <meta property="og:image" content="" id='ogImage' />
 <meta property="og:description" content="" id='ogDescription' />
 
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 
 <base href='' /><!-- leave blank so it works for a local file -->
 
@@ -22,9 +23,9 @@ var myCreole;
 var app = {vars:{
 	"release":"201324.a",  //increment this with each change. should solve caching issues. format: YYYYMMDDHHMMSS
 	"_clientid":"zmvc",
-	"checkoutAuthMode" : "active", //can be passive, active or required
+	"checkoutAuthMode" : "passive", //can be passive, active or required
 	"baseURL":"",
-	"testURL":"http://ylh.zoovy.com/" //put your domain here. you can then test locally in firefox.
+	"testURL":"http://app.getprinting3d.com/" //put your domain here. you can then test locally in firefox.
 	},u:{},rq:[]};
 
 //set base url so images, css, js, etc all load from appropriate location once deployed.
@@ -91,7 +92,7 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
     	<div class='topNav'>
 
             <div class='floatRight'>
-<a href='#!cart?show=cart' class='bindByAnchor'><span class="cartItemCount"></span> Items in your <b>shopping bag</b></a>  |            	
+<a href='#!cart?show=cart' class='bindByAnchor'><span class="cartItemCount"></span> Items in your <b>shopping cart</b></a>  |            	
 <a href='#!company?show=contact' class='bindByAnchor'>Contact</a>  | 
 <a href='#!company?show=faq' class='bindByAnchor'>Help</a>
             </div>
@@ -103,8 +104,11 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
     	</div>
         
         <div class='logoSearchContainer clearfix'>
-        	<div id='logo' onClick="showContent('homepage');" class='logo pointer'></div>
+        	<div id='logo' onClick="showContent('homepage');" class='pointer'>
+				<img src="images/logo.png">
+			</div>
         	<div class='searchBarContainer'>
+				<div class="searchBarQuestions">Questions? Call (855)-50GET3D</div>
 				<form name='headerSearchFrm' action='#' class='productSearchForm' method="get" id="searchFunc">
 					<input type='search' name='KEYWORDS' class="productSearchKeyword handleDefault" placeholder="Find it here..." id="searchBar"/>
 					<input class="search pointer" type="submit" value="Search" id="searchButton" />
@@ -114,17 +118,139 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
         
 
         <div class='mainNavContainer'>
+				<div class="pointer"
+					onMouseOver="app.ext.store_getprinting3d.a.showDropDown($(this));"
+					onMouseOut="app.ext.store_getprinting3d.a.hideDropDown($(this));">
+					<div onClick="return showContent('category',{'navcat' : '.a_engineering_software'});" class="mainNavLinks mainNavLine">3D Software</div>
+						<div class="dropdown displayNone">
+						</div>
+				</div>
+				<div class="pointer"
+					onMouseOver="app.ext.store_getprinting3d.a.showDropDown($(this));"
+					onMouseOut="app.ext.store_getprinting3d.a.hideDropDown($(this));">
+					<div onClick="return showContent('category',{'navcat' : '.ascannr'});" class="mainNavLinks mainNavLine">3D Scanners</div>
+						<div class="dropdown displayNone">
+						</div>
+				</div>
+				<div class="pointer"
+					onMouseOver="app.ext.store_getprinting3d.a.showDropDown($(this));"
+					onMouseOut="app.ext.store_getprinting3d.a.hideDropDown($(this));">
+					<div class="mainNavLinks mainNavLine" onClick="return showContent('category',{'navcat' : '.d_personal_3d_printers'});">Personal 3D Printers</div>
+					<div class="dropdown displayNone" data-width="195px">
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.cube'});">Cube</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.cubex'});">CubeX</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.felix_printers'});">Felix Robotics Printers</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.projet_personal_printers'});">ProJet Personal Printers</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.z-printers'});">ProJet x60 ColorJet</div>
+						<!-- Remove this when you add products to category
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.d_personal_3d_printers.zused_equipment'});">Demo/Used Printers</div>
+						-->
+					</div>
+				</div>
+				<div class="pointer"
+					onMouseOver="app.ext.store_getprinting3d.a.showDropDown($(this));"
+					onMouseOut="app.ext.store_getprinting3d.a.hideDropDown($(this));">
+					<div class="mainNavLinks mainNavLine" onClick="return showContent('category',{'navcat' : '.g_professional_3d_printers'});">Pro 3D Printers</div>
+					<div class="dropdown down displayNone" data-width="210px">
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.g_professional_3d_printers.3d_systems_zprinters'});">ProJet x60 ColorJet</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.g_professional_3d_printers.projet_3500_plastics'});">ProJet 3500/3510 Plastics</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.g_professional_3d_printers.projet_3500_realwax'});">ProJet 3500/3510 RealWax</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.g_professional_3d_printers.projet_6000-7000'});">ProJet 6000-7000</div>
+						<!-- Remove this when you add products to category
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.g_professional_3d_printers.zdemo_used_pro_printers'});">Demo/Used Printers</div>
+						-->
+					</div>
+				</div>
+				<div class="pointer"
+					onMouseOver="app.ext.store_getprinting3d.a.showDropDown($(this));"
+					onMouseOut="app.ext.store_getprinting3d.a.hideDropDown($(this));">
+					<div class="mainNavLinks mainNavLine" onClick="return showContent('category',{'navcat' : '.k_srp_milling_systems'});">Desktop CNC</div>
+						<div class="dropdown displayNone" data-width="200px">
+							<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.k_srp_milling_systems.mdx-20_15'});">MDX-20/15</div>
+							<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.k_srp_milling_systems.mdx-40a'});">MDX-40A</div>
+							<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.k_srp_milling_systems.mdx-540'});">MDX-540</div>
+							<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.k_srp_milling_systems.milling_supplies'});" 
+								onMouseOver='app.ext.store_getprinting3d.a.showHoverout($(this).parent().parent(),4);' 
+								onMouseOut='app.ext.store_getprinting3d.a.hideHoverout($(this).parent().parent(), 4);'>SRP Supplies</div>
+							<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.k_srp_milling_systems.roland_accessories'});" 
+								onMouseOver='app.ext.store_getprinting3d.a.showHoverout($(this).parent().parent(),6);' 
+								onMouseOut='app.ext.store_getprinting3d.a.hideHoverout($(this).parent().parent(), 6);'>Roland Accessories</div>
+							<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.k_srp_milling_systems.used_equipment'});">Demo/Used CNC Equipment</div>
+						</div>
+						<div class="hoverout" data-index="4" data-width="128" data-top='139' onMouseOver='app.ext.store_getprinting3d.a.showHoverout($(this).parent(),4);' onMouseOut='app.ext.store_getprinting3d.a.hideHoverout($(this).parent(), 4);'>
+							<div onClick="app.ext.store_getprinting3d.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.k_srp_milling_systems.milling_supplies.end_mills'});">End Mills</div>
+						</div>
+						<div class="hoverout" data-index="6" data-width="210" data-top='174' onMouseOver='app.ext.store_getprinting3d.a.showHoverout($(this).parent(),6);' onMouseOut='app.ext.store_getprinting3d.a.hideHoverout($(this).parent(), 6);'>
+							<div onClick="app.ext.store_getprinting3d.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.k_srp_milling_systems.roland_accessories.mdx-20_15'});">MDX-20/15 Accessories</div>
+							<div onClick="app.ext.store_getprinting3d.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.k_srp_milling_systems.roland_accessories.mdx-40a'});">MDX-40A Accessories</div>
+							<div onClick="app.ext.store_getprinting3d.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.k_srp_milling_systems.roland_accessories.mdx-540'});">MDX-540 Accessories</div>
+						</div>
+				</div>
+				<div class="pointer"
+					onMouseOver="app.ext.store_getprinting3d.a.showDropDown($(this));"
+					onMouseOut="app.ext.store_getprinting3d.a.hideDropDown($(this));">
+					<div class="mainNavLinks mainNavLine" onClick="return showContent('category',{'navcat' : '.n_materials___consumables'});">Materials</div>
+					<div class="dropdown displayNone" data-width="218px">
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.bfb_-_rapman_materials'});">BFB 3DTouch/RapMan Spools</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.cube'});">Cube ABS/PLA</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.cubex'});">CubeX ABS/PLA</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.cube_materials'});">Cube Accessories</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.felix_pla'});">Felix PLA</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.milling_supplies'});" 
+							onMouseOver='app.ext.store_getprinting3d.a.showHoverout($(this).parent().parent(),5);' 
+							onMouseOut='app.ext.store_getprinting3d.a.hideHoverout($(this).parent().parent(), 5);'>Milling Supplies</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.projet_plastic'});">ProJet Plastic</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.projet_wax'});">ProJet Wax</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.silicone'});">Silicone</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.zprinter'});" 
+							onMouseOver='app.ext.store_getprinting3d.a.showHoverout($(this).parent().parent(),10);' 
+							onMouseOut='app.ext.store_getprinting3d.a.hideHoverout($(this).parent().parent(), 10);'>ZPrinter/ProJet x60 </div>
+					</div>
+					<div class="hoverout" data-index="5" data-width="125" data-top='174' onMouseOver='app.ext.store_getprinting3d.a.showHoverout($(this).parent(),5);' onMouseOut='app.ext.store_getprinting3d.a.hideHoverout($(this).parent(), 5);'>
+						<div onClick="app.ext.store_getprinting3d.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.milling_supplies.collets'});">Collets</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.milling_supplies.end_mills'});">End Mills</div>
+					</div>
+					<div class="hoverout" data-index="10" data-width="164" data-top='314' onMouseOver='app.ext.store_getprinting3d.a.showHoverout($(this).parent(),10);' onMouseOut='app.ext.store_getprinting3d.a.hideHoverout($(this).parent(), 10);'>
+						<div onClick="app.ext.store_getprinting3d.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.zprinter.additional_items'});">Additional Items</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.zprinter.binders'});">Binders</div>
+						<div onClick="app.ext.store_getprinting3d.a.hideHoveroutOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.n_materials___consumables.zprinter.infiltrants'});">Infiltrants</div>
+					</div>	
+				</div>
+				<div class="pointer"
+					onMouseOver="app.ext.store_getprinting3d.a.showDropDown($(this));"
+					onMouseOut="app.ext.store_getprinting3d.a.hideDropDown($(this));">
+					<div class="mainNavLinks mainNavLine" onClick="return showContent('category',{'navcat' : '.u3d_printed_parts'});">3D Printed Items</div>
+						<div class="dropdown displayNone" data-width="145px">
+							<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.u3d_printed_parts.3d_print_your_design.z-print'});">Z-Print</div>
+							<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.u3d_printed_parts.personalized_items'});">Personalized Items</div>
+						</div>
+				</div>
+				<div class="pointer"
+					onMouseOver="app.ext.store_getprinting3d.a.showDropDown($(this));"
+					onMouseOut="app.ext.store_getprinting3d.a.hideDropDown($(this));">
+					<div class="mainNavLinks lastNavOption" onClick="return showContent('category',{'navcat' : '.ultrasonic_baths'});">Accessories</div>
+						<div class="dropdown displayNone" data-width="137px">
+							<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.ultrasonic_baths.surge_suppressors'});">Surge Suppressors</div>
+							<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.ultrasonic_baths.ultrasonic_baths'});">Ultrasonic Baths</div>
+							<div onClick="app.ext.store_getprinting3d.a.hideDropDownOnSelect($(this).parent().parent()); return showContent('category',{'navcat':'.ultrasonic_baths.ups_systems'});">UPS Systems</div>
+						</div>
+				</div>
+        </div>
+		<!--					
 		<ul class='topLinks'>
-			<li><a href='#' onClick='handleCategoryMenu(); return false;'>Browse</a></li>
-			<li><a href='#!search?TAG=IS_BESTSELLER' class='bindByAnchor'>What's Hot</a></li>
-			<li><a href='#!search?TAG=IS_NEWARRIVAL' class='bindByAnchor'>New Arrivals</a></li>
-			<li><a href='#!search?TAG=IS_SALE' class='bindByAnchor'>On Sale</a></li>
-			<li><a href='#!search?TAG=IS_CLEARANCE' class='bindByAnchor'>Clearance</a></li>
+			<li style="width:110px"><a href='#' onClick="return showContent('category',{'navcat' : '.a_engineering_software'});">3D Software</a></li>
+			<li style="width:140px"><a href='#' onClick="return showContent('category',{'navcat' : '.d_personal_3d_printers'});">Personal Printers</a></li>
+			<li style="width:130px"><a href='#' onClick="return showContent('category',{'navcat' : '.g_professional_3d_printers'});" class='bindByAnchor'>Pro 3D Printers</a></li>
+			<li><a href='#' onClick="return showContent('category',{'navcat' : '.k_srp_milling_systems'});">Roland Mills</a></li>
+			<li><a href='#' onClick="return showContent('category',{'navcat' : '.n_materials___consumables'});">Materials</a></li>
+			<li style="width:175px"><a href='#' onClick="return showContent('category',{'navcat' : '.s_demo___used_equipment'});">Pre-Owned Equipment</a></li>
+			<li style="width:145px"><a href='#' onClick="return showContent('category',{'navcat' : '.u3d_printed_parts'});">3D Printed Items</a></li>
+			<li><a href='#' onClick="return showContent('category',{'navcat' : '.ultrasonic_baths'});">Accessories</a></li>
 		</ul>
 		<div id='browseMenuContent' class='displayNone'>
 			<ul id='tier1categories' class='columnify'></ul>
 		</div>
-        </div>
+		-->
     </div>
 
 <!-- These add specific functionality for the app. In most cases, you want to leave them alone. -->
@@ -139,6 +265,8 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
     
 	
 	<!-- FOOTER -->
+	
+	<!-- Old footer newsletter
     <div class='footerNewsletter'>
 		<form action='#' name='subscribeFrm' onSubmit="app.ext.store_crm.u.handleSubscribe($(this)); return false">
 			<div id='upToDate' class=' floatLeft marginLeft marginTop marginRight'>Join and Save!</div>
@@ -153,22 +281,12 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
 			</div>
 		</form>
 	</div>	
-
+	-->
+	
     <div id='footerLinks' class='clearfix'>
-	    <div id='categories' class="bottomLinkListContainer">
-    		<ul class='bottomLinkList'>
-               	<li class='listHead'>SHOP</li>
-		        	<!-- place holder links, will need to replace safe.name later -->  
-				<li><a href='#top' class='footerLinkStyle' onClick="handleCategoryMenu('show');">Browse by category</a></li>
-				<li><a href='#!search?TAG=IS_BESTSELLER' class='footerLinkStyle bindByAnchor'>What's hot</a></li>
-				<li><a href='#!search?TAG=IS_NEWARRIVAL' class='footerLinkStyle bindByAnchor'>New arrivals</a></li>
-				<li><a href='#!search?TAG=IS_SALE' class='footerLinkStyle bindByAnchor'>Sale</a></li>
-				<li><a href='#!search?TAG=IS_CLEARANCE' class='footerLinkStyle bindByAnchor'>Clearance</a></li>
-			</ul>    
-		</div>
-        <div id='help' class="bottomLinkListContainer">
+        <div class="bottomLinkListContainer">
         	<ul class='bottomLinkList'>
-            	<li class='listHead'>HELP</li>
+            	<li class='listHead'>Help</li>
 				<li><a href='#!company?show=about' class='footerLinkStyle bindByAnchor'>About</a></li>
 				<li><a href='#!company?show=contact' class='footerLinkStyle bindByAnchor'>Contact us</a></li>
 				<li><a href='#!company?show=faq' class='footerLinkStyle bindByAnchor'>FAQ</a></li>
@@ -178,9 +296,9 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
 				<li><a href='#!company?show=privacy' class='footerLinkStyle bindByAnchor'>Privacy policy</a></li>
             </ul>
 		</div>
-        <div id='myaccount' class="bottomLinkListContainer">
+        <div class="bottomLinkListContainer">
             <ul class='bottomLinkList'>
-                <li class='listHead'>MY ACCOUNT</li>
+                <li class='listHead'>My Account</li>
                 <li class='hideIfLoggedIn'><a href='#!customer?show=newsletter'  class='footerLinkStyle bindByAnchor'>Create account</a></li>
                 <li class='hideIfLoggedIn'><a href='#!customer?show=myaccount' class='footerLinkStyle bindByAnchor'>Sign In</a></li>
                 <li class='hideIfLoggedOut'><a href='#!customer?show=myaccount' class='footerLinkStyle bindByAnchor'>My account</a></li>
@@ -189,6 +307,26 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
                 <li><a href='#!customer?show=orders' class='footerLinkStyle bindByAnchor'>Order tracking</a></li>
             </ul>
         </div>
+		<div class="bottomLinkListContainer">
+			<ul class='bottomLinkList'>
+				<li class='listHead'>Social Networks</li>
+				<li id='social'><a href='http://www.facebook.com/getprinting3d' target="_blank" class='footerLinkStyle'><img src="images/facebook_icon.png"/>Facebook</a></li>
+			</ul>
+		</div>
+		<div class="bottomLinkListContainer">
+			<ul class='bottomLinkList'>
+				<li class='listHead' style="margin-top: 10px;">Retail Locations</li>
+				<li><a href='#!category?navcat=.retail_locations' class='footerLinkStyle bindByAnchor'>Evanston, IL</a></li>
+				<li><a href='#!category?navcat=.retail_locations' class='footerLinkStyle bindByAnchor'>Dayton, OH</a></li>
+			</ul>
+		</div>	
+					
+		<div class='footerNewsletter'>
+			<div class='listHead'> Newsletter</div>  
+			<ul class='bottomLinkList' >
+				<li><a href='http://visitor.r20.constantcontact.com/d.jsp?llr=psx5mvcab&p=oi&m=1102377344591&sit=qxnndizdb' target="_blank" class='footerLinkStyle'><img src="images/Emailsubscribebutton1.jpg" /></a></li>
+			</ul>	
+		</div>
 <!--
 uncomment and set links
         <div id='morefashion' class="bottomLinkListContainer">
@@ -254,70 +392,44 @@ COMMONLY EDITED TEMPLATES
 <div id='homepageTemplate' class='homeTemplate'>
 	<div class='mainBannerContainer clearfix'>
 		
-		<div class='mainBannerGraphic pointer' onClick="showContent('search',{'TAG':'IS_NEWARRIVAL'});"><img src='app-fashion/new_arrivals-703x294.jpg' width='703' height='294' alt='' /></div>
-		
-		<div class='mainBannerNewsletter'>
-		
-			<div id='scoop'>GET THE SCOOP ON</div>
-			<div id='latest'>THE LATEST IN FASHION</div>
-				   
-			<div class='headerNewsletterSignUpContainer marginBottom'>              
-				<form action='#' name='subscribeFrm' onSubmit="app.ext.store_crm.u.handleSubscribe($(this)); return false">
-					<fieldset class='borderNone noPadOrMargin'>
-						<div>
-							<input type='text'  maxlength='50' size='30' name='fullname' class='headerSubscribeFrm' placeholder='Full Name' />
-						</div>	
-		
-						<div id='headerNewsletterEmail'>
-							<input type='email'  maxlength='50' size='30' name='login' class='headerSubscribeFrm' placeholder='E-mail Address' />
-						</div>
-					</fieldset>
-					
-				
-				<input type='submit' class='socialIconContainer' value='SIGN UP!' id='headerSignUpButton'>
-				</form>
-			</div>
-			
-			<div class='socialIcons clearfix '>
-
-<div id='followUs'><img src='app-fashion/followus-190x11.png' width='190' height='11' alt='follow us...'></div>
-<div class='socialIconContainer'>
-	<div class='facebookIcon'><img src='app-fashion/facebook-32x32.png' width='32' height='32' alt='Facebook' ></div>
-	<div class='twitterIcon'><img src='app-fashion/twitter-32x32.png' width='32' height='32' alt='twitter' ></div>
-	<div class='youtubeIcon'><img src='app-fashion/youtube-32x32.png' width='32' height='32' alt='youtube' ></div>
-</div>
-			</div>
-			
+		<div class='mainBannerGraphic pointer'>
+			<img src='images/GP3DZoovycoverCubeSlide1.jpg' alt='' />
+			<img src='images/GP3DZoovycoverGeoScanSlide2.jpg' alt='' />
+			<img src='images/GP3DZoovycoverMaterialsSlide3.jpg' alt='' />
+			<img src='images/GP3DZoovycoverproJetsSlide4.jpg' alt='' />
+			<img src='images/GP3DZoovycoverCNCSlide5.jpg' alt='' />
 		</div>
-				
+		
+		<div class='mainBannerSidebar'>
+			<a href="#" onClick="return showContent('category',{'navcat' : '.retail_locations'});"><img src="images/SideBarBannerEvanstonOpen.jpg"/></a>
+			<!-- Taking out bar for time being<img src="images/sideBannerBar.jpg"/> -->
+			<a href="#" onClick="return showContent('category',{'navcat' : '.n_materials___consumables.cube'});"><img class="mainBannerSideBarBottom" src="images/SideBarBannersCubeMaterial.jpg"/></a>
+		</div>
+		<div class='mainBannerBottom'>
+			<img src="images/3BottomBanner1.jpg"/>
+			<a href="#" onClick="return showContent('category',{'navcat' : '.retail_locations'});"><img src="images/3BottomBanner2.jpg"/></a>
+			<a href="#" onClick="return showContent('company',{'show' : 'contact'})"><img src="images/3BottomBanner3.jpg"/></a>
+		</div>		
 	</div>
         
 
-	<section id='newArrivals'>
-		
+	<section id='newArrivals'>	
 		<div class='listHeader'>
-		<a href="#" onClick="return showContent('search',{'TAG':'IS_SALE'});" class='floatRight'>See all Sale Items</a>
-		<h2>Now On Sale</h2>
+			<h2>Popular Products</h2>
 		</div>
-		
-	<ul id='homeProdSearchSale' data-bind='var: elastic-native({"size":"4","mode":"elastic-native","filter":{"term":{"tags":"IS_SALE"}}}); format: productSearch; extension: myRIA; loadsTemplate: productListTemplateResultsNoPreview;' class='listStyleNone fluidList clearfix noPadOrMargin productList'></ul>
-
-	
-
+			<ul data-bind="var: list($new_products.@products); format: productList; editor: finder; extension: store_prodlist; loadsTemplate: productListTemplate; withReviews:1; items_per_page: 25; hide_summary:1;" class='listStyleNone fluidList clearfix noPadOrMargin productList'></ul>
 	</section>
-	
+
+<!--	
 	<section id='bestSellers'>
 		<div class='listHeader'>
-		<a href="#" onClick="return showContent('search',{'TAG':'IS_BESTSELLER'});" class='floatRight'>See all Best Sellers</a>
 		<h2>Best Sellers</h2>
 		</div>
-
 	<ul id='homeProdSearchBestSellers' data-bind='var: elastic-native({"size":"4","mode":"elastic-native","filter":{"term":{"tags":"IS_BESTSELLER"}}}); format: productSearch; extension: myRIA; loadsTemplate: productListTemplateResultsNoPreview;' class='listStyleNone fluidList clearfix noPadOrMargin productList'></ul>
-
 	</section>
+	-->
 	
-	
-	
+	<div class='pointer bottomBanner' href="#" onClick="return showContent('category',{'navcat' : '.g_professional_3d_printers.3d_systems_zprinters'});"><img src='images/bottomBanner.jpg' alt='' /></div>
 
 </div>
 
@@ -335,7 +447,7 @@ don't modify the 'data-templateid' unless you are changing template names and up
 
 	<ul class='breadcrumb clearfix noPadOrMargin fluidList' data-bind='var: category(id); format:breadcrumb; extension:store_navcats; loadsTemplate: breadcrumbTemplate;'></ul>
 
-	<p data-bind="var: category(%page.description); format:wiki; wikiFormats:myRIA; editor: textarea;"></p>
+	<p class="pageDescText" data-bind="var: category(%page.description); format:wiki; wikiFormats:myRIA; editor: textarea;"></p>
 
 	<ul data-bind="var: category(@subcategoryDetail); format: categoryList; extension: store_navcats; loadsTemplate: categoryListTemplate; detail:max;" class='listStyleNone fluidList clearfix noPadOrMargin categoryList'></ul><!-- outputs a list of subcategories -->
 
@@ -348,6 +460,39 @@ don't modify the 'data-templateid' unless you are changing template names and up
 </div>
 
 
+
+<div id='categoryTemplateRetailLocations' class='loadingBG categoryTemplate categoryTemplateRetailLocations'>
+
+	<ul class='breadcrumb clearfix noPadOrMargin fluidList' data-bind='var: category(id); format:breadcrumb; extension:store_navcats; loadsTemplate: breadcrumbTemplate;'></ul>
+	
+	<img class="evanstonMainBanner" src="images/GP3DEvanstonImage.jpg"/>
+	<div class="contentPage">
+		<h1>Welcome to GetPrinting3D</h1>
+		<h3>GetPrinting3D is Rapid Direction&#39;s Retail and E&#45;commerce solution for consumer 3D Printing&#44; Scanning&#44; Subtractive RP and Consumables.</h3>
+		<p>Our e&#45;commerce website GetPrinting3D.com gives you easy access to the equipment&#44; software and consumables you need for your rapid prototyping needs. With an ever&#45;expanding offering&#44; you&#39;ll be sure to find a product for your requirement.</p>
+		<p><b>GetPrinting3D Evanston</b>&#44; our pilot 3D Printing Retail Showroom & Demonstration Caf&#233; in downtown Evanston&#44; IL&#44; at 820 Davis Street&#44; Suite 111&#44; was brought to life for two basic reasons. First&#44; people of all ages want to see first&#45;hand what this &#34;new&#34; technology&#44; 3D printing&#44; really is and how it works. Secondly&#44; with consumer&#45;level 3D printers and user&#45;friendly 3D modeling software now available and affordable&#44; combined with our ability to demonstrate and make available for purchase these products&#44; a venue like this just made sense.</p>
+		<div class="evanstonGrandOpening">
+			<h2>GETPRINTING3D EVANSTON GRAND OPENING - JULY 12 & 13 <a href="http://myemail.constantcontact.com/Grand-Opening-3D-Printer-Retail-Store-in-Evanston--IL.html?soid=1102377344591&aid=pNnyi0zEO58" class='footerLinkStyle' target="_blank">&#40;click to view announcement&#41;</a></h2>
+		</div>
+		<p><b>Why here&#44; why now&#63;</b> Up to mid 2012&#44; our customer base was primarily large to mid&#45;sized b2b and b2c businesses that were prototyping ultra high detail parts in&#45;house. With the development and mass availability of consumer&#45;grade 3D printers&#44; like 3D System&#39;s Cube and CubeX printers&#44; the market has now opened up to everyone from grade schools and museums to entrepreneurs and artists. This is an exciting time and we feel like we&#39;re well positioned to empower people of all ages and skill levels to enter in to this 3D printing adventure.</p>
+		<p><b>Future strength from strong past</b> &#45; Even though at times there is a feeling of sailing uncharted waters&#44; there comes the sense that our history has prepared us for this. Who would have thought that an 8 year old could come into a retail environment like GetPrinting3D Evanston&#44; sit down at a workstation&#44; personalize a 3D model with web&#45;based software and then watch as their object comes to life right before their eyes on a space&#45;age machine called a 3D printer&#63; Not so far away at our corporate office in Dayton&#44; Ohio&#44; we look into the lab where nearly a dozen machines are cranking out some of the most unusual and specialized parts and components day in and day out. Rapid Direction&#39;s sister company&#44; Bastech&#44; Inc.&#44; has been using additive manufacturing technologies for over 20 years and is ultimately familiar with machine capabilities&#44; material specs and 3D model file preparation. The rich history of Bastech has laid a solid build platform for its future and the evolvement of Rapid Direction and GetPrinting3D.</p>
+		<h3>Keep up with the excitement at GetPrinting3D by following our <a href='http://www.facebook.com/getprinting3d' target="_blank" class='footerLinkStyle'>Facebook</a>.</h3>
+		<h3>News articles from the June 5 Ribbon&#45;Cutting&#58;</h3>
+		<ul>
+			<li><a href='http://www.3dprinter-world.com/article/evanston-illinois-gets-3d-printing-retail-outlet' target="_blank" class='footerLinkStyle'>3D Printer World</a></li>
+			<li><a href='http://3dprintingindustry.com/2013/06/17/getprinting3d-offers-brick-and-mortar-experience-of-3d-printing-to-evanston-locals/' target="_blank" class='footerLinkStyle'>3D Printing Industry</a></li>
+			<li><a href='http://dailynorthwestern.com/2013/06/06/blogs/aroundtown/3d-printing-shop-opens-in-evanston/' target="_blank" class='footerLinkStyle'>The Daily Northwestern</a><iframe width="535" height="301" src="http://www.youtube.com/embed/TsLCkHhVtnA?rel=0" frameborder="0" allowfullscreen></iframe></li>
+		</ul>
+		<h3>News articles from the July 12 and 13 Grand Opening</h3>
+		<ul>
+			<li><a href='http://www.chicagonow.com/green-tech-chicago/2013/07/local-3d-printing-opens/' target="_blank" class='footerLinkStyle'>ChicagoNow</a><iframe width="535" height="301" src="http://www.youtube.com/embed/g-PK_JCiOD4?rel=0" frameborder="0" allowfullscreen></iframe></li>
+		</ul>
+	</div>
+	<div class="contentPageSideBar">
+		<img src="images/GP3DEvanstonInStore.jpg"/>
+	</div>
+
+</div>
 
 
 
@@ -391,7 +536,9 @@ remember to NOT put the button inside the 'onclick' container or two events will
 <div class='priceDetail hideInMinimalMode'>
 	<div class='price'>
 		<div data-bind='var: product(zoovy:base_price); format:money; currencySign: $;  hideZero:true;'></div>
+		<!--
 		<span data-bind='var: reviews(reviews.average); format:addClass; className:review_;' class='reviewSprite'></span>
+		-->
 	</div>
 	<div class='detailButton pointer' >DETAILS</div>
 </div>
@@ -572,18 +719,26 @@ this will likely become more flexible in the future. ###
 
 	<div data-bind="var: product(zoovy:prod_is_tags); format:addTagSpans;" class='tagsContainer'></div>
 	<div class='image1'>
-	<a href='blank.gif' data-bind='var: product(zoovy:prod_image1); format:imageURL2Href; h:; w:;' data-gallery="gallery"  ><img src='blank.gif' class='prodBigImage' alt='' data-bind='var: product(zoovy:prod_image1); format:imageURL;' width='340' height='340' /></a>
+	<a data-bind="useParentData:true; format:lightboxLink; extension:tools_lightbox; hrefAttr:%attribs.zoovy:prod_image1; groupingPrefix:prodPage_; groupingAttr:pid; titleAttr:%attribs.zoovy:prod_name;">
+		<img src='blank.gif' class='prodBigImage' alt='' data-bind='var: product(zoovy:prod_image1); format:imageURL;' width='340' height='340' />
+	</a>
 	</div>
 
 </div>
 
 	<div  class='prodThumbs'>
 
-<a href='blank.gif' data-bind='var: product(zoovy:prod_image2); format:imageURL2Href; h:; w:;' data-gallery="gallery"  ><img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image2); format:imageURL;' width='75' height='75' /></a>
+<a data-bind="useParentData:true; format:lightboxLink; extension:tools_lightbox; hrefAttr:%attribs.zoovy:prod_image2; groupingPrefix:prodPage_; groupingAttr:pid;">
+	<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image2); format:imageURL;' width='75' height='75' />
+</a>
 
-<a href='blank.gif' data-bind='var: product(zoovy:prod_image3); format:imageURL2Href; h:; w:;' data-gallery="gallery"  ><img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image3); format:imageURL;' width='75' height='75' /></a>
+<a data-bind="useParentData:true; format:lightboxLink; extension:tools_lightbox; hrefAttr:%attribs.zoovy:prod_image3; groupingPrefix:prodPage_; groupingAttr:pid;">
+	<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image3); format:imageURL;' width='75' height='75' />
+</a>
 
-<a href='blank.gif' data-bind='var: product(zoovy:prod_image4); format:imageURL2Href; h:; w:;' data-gallery="gallery"  ><img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image4); format:imageURL;' width='75' height='75' /></a>
+<a data-bind="useParentData:true; format:lightboxLink; extension:tools_lightbox; hrefAttr:%attribs.zoovy:prod_image4; groupingPrefix:prodPage_; groupingAttr:pid;">
+	<img src='blank.gif' alt='' data-bind='var: product(zoovy:prod_image4); format:imageURL;' width='75' height='75' />
+</a>
 
 
 	</div>
@@ -614,7 +769,7 @@ this will likely become more flexible in the future. ###
 		<fieldset data-bind='var: product(pid); format:atcVariations; extension:store_product;' class='borderNone'></fieldset>
 		<fieldset data-bind='useParentData:true; format:atcQuantityInput; extension:store_product; pretext:Quantity: ; defaultValue:1;' class='borderNone'></fieldset>
 
-		<input type='submit' value='Add to Cart' class='ui-button ui-button-text ui-corner-all ui-state-default addToCartButton displayNone' data-bind='var: product(pid); format:addToCartButton; extension:store_product;'  />
+		<input type='submit' value='Add to Cart' class='ui-button addToCartButton ' data-bind='var: product(pid); format:addToCartButton; extension:store_product;'  />
 	</form>
 
 	<div data-bind='var:product(zoovy:prod_cpsiawarning); format:cpsiaWarning; extension:myRIA;'></div>
@@ -630,7 +785,7 @@ this will likely become more flexible in the future. ###
 	<a href='#' onClick='app.ext.store_crm.u.showReviewFrmInModal({"pid":$(this).parent().attr("data-pid"),"templateID":"reviewFrmTemplate"}); return false;'>Write Review</a>	|
 
 	<a href='#' onClick="app.ext.myRIA.a.add2BuyerList({sku:$(this).parent().attr('data-pid'),'listid':'wishlist'}); return false;">Add to Wishlist</a>
-
+	<div class="socialLinks"></div>
 	</menu>
 
 	</td>
@@ -648,13 +803,14 @@ It's done this way because ID's hard coded into template are bad mojo (templates
 		<li class='prodDescTab'><a href='#prodDesc'>Description</a></li>
 		<li class='prodDetailTab displayNone' data-bind='var: product(zoovy:prod_detail); format:showIfSet;'><a href='#prodSpecs'>Specs</a></li>
 		<li class='prodFeaturesTab displayNone' data-bind='var: product(zoovy:prod_features); format:showIfSet;'><a href='#prodFeatures'>Features</a></li>
+		<!-- Taking out temporarily
 		<li class='prodReviewsTab'><a href='#prodReviews'>Reviews</a></li>
+		-->
 		<li class='prodVideoTab displayNone' data-bind='var: product(youtube:videoid); format:showIfSet;'><a href='#prodVideo'>Video</a></li>
-		<li class='prodAccessoriesTab displayNone' data-bind='var: product(zoovy:accessory_products); format:showIfSet;'><a href='#prodAccessories'>Accessories</a></li>
 	</ul>
 
 	<div class='tabContent' data-anytab-content='prodDesc'>
-		<div data-bind='var: product(zoovy:prod_desc); format:wiki; wikiFormats:myRIA;'></div>
+		<div class="clearfix" data-bind='var: product(zoovy:prod_desc); format:wiki; wikiFormats:myRIA;'></div>
 	</div>
 
 	<div class='tabContent' data-anytab-content='prodSpecs'>
@@ -680,15 +836,6 @@ It's done this way because ID's hard coded into template are bad mojo (templates
 		<div data-bind='var: product(youtube:videoid); format:youtubeVideo;'></div>
 	</div>
 
-	<div class='tabContent' data-anytab-content='prodAccessories'>
-
-
-<table class='fullWidth gridTable'>
-<tbody data-bind="var: product(zoovy:accessory_products); format:productList; extension:store_prodlist;loadsTemplate:productListTemplateATC;hide_pagination:true;hide_summary:true; withReviews:1; withInventory:1; withVariations:1;"></tbody>
-</table>
-
-	</div>
-
 
 
 
@@ -697,10 +844,12 @@ It's done this way because ID's hard coded into template are bad mojo (templates
 	</td>
 </tr>
 </table>
-<div class='prodlistRelatedContainer'>
-	<ul class='listStyleNone fluidList clearfix noPadOrMargin productList' data-bind="var: product(zoovy:related_products); format:productList; extension:store_prodlist;loadsTemplate:productListTemplate;hide_pagination:true;hide_summary:true; before:<h2>Similar Items</h2>; withReviews:1;"></ul>
+<div class='prodlistRelatedContainer similarItems'>
+	<ul class='listStyleNone fluidList clearfix noPadOrMargin productList' data-bind="var: product(zoovy:related_products); format:productList; extension:store_prodlist;loadsTemplate:productListTemplate;hide_pagination:true;hide_summary:true; before:<h2>Similar Items</h2>; items_per_page: 4;"></ul>
 </div>
-
+<div class='prodlistRelatedContainer similarItems'>
+	<ul class='listStyleNone fluidList clearfix noPadOrMargin productList' data-bind="var: product(zoovy:accessory_products); format:productList; extension:store_prodlist;loadsTemplate:productListTemplate;hide_pagination:true;hide_summary:true; before:<h2>Accessories</h2>; items_per_page: 4;"></ul>
+</div>
 
 </div><!-- productTemplate -->
 
@@ -716,7 +865,7 @@ It's done this way because ID's hard coded into template are bad mojo (templates
 
 
 	<td class='prodSummaryContainer marginBottom no_underline'>
-	<h1 data-bind='var: product(zoovy:prod_name); format:text;'></h1>
+	<h1 class="quickviewProdName" data-bind='var: product(zoovy:prod_name); format:text;'></h1>
 	<h6 class='ztable_row_small stid' data-bind='var: product(pid); format:text; className: stid; pretext: Sku#: ;'></h6>
 
 
@@ -744,7 +893,7 @@ It's done this way because ID's hard coded into template are bad mojo (templates
 		<input type='submit' value='Add to Cart' class='addToCartButton displayNone' data-bind='var: product(pid); format:addToCartButton; extension:store_product;'  />
 	</form>
 
-	<div data-bind='var: product(zoovy:prod_desc); format:wiki; wikiFormats:myRIA;'></div>
+	<div class="quickviewText" data-bind='var: product(zoovy:prod_desc); format:wiki; wikiFormats:myRIA;'></div>
 
 	</td>
 	
@@ -1216,7 +1365,7 @@ So the cart template should contain these two elements and the extension should 
 
 	<!-- some buttons that are alternatives to checkout. fewer is better -->
 	<menu class='cartAltButtonsContainer noPadOrMargin'>
-	<button class='ui-button-text ui-button ui-state-default ui-corner-all continueShoppingButton' onClick="$('#modalCart').dialog('close');">Continue Shopping</button>
+	<button class='ui-button-text ui-button ui-state-default ui-corner-all continueShoppingButton' style="width: 142px; height: 28px;" onClick="$('#modalCart').dialog('close');">Continue Shopping</button>
 	</menu>
 
 	<div class='checkoutButtonsContainer'>
