@@ -2,25 +2,24 @@
 /* CSS Document */
 
 body {
-	background: white;	font-family: Arial, Helvetica, sans-serif; color:#666666;
+	background-image:url('images/GP3Dbackgroundtile.jpg');	font-family: 'PT Sans', sans-serif; color:#666666;
 }
 
 #appView {
-	background: white;
 	margin: 0px auto;
 	width: 1020px;	
 	}
 
 
 #appPreView	{
-	margin:10% 25%; padding:0px; position:absolute; z-index:10000; background:#ffffff;
-	border:6px solid #a3033d;
+	margin:10% 25%; padding:0px; position:absolute; z-index:10000; background:#e4e4e4;
+	border:6px solid #393b42;
 	-webkit-box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, .3);
 	box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, .3);
 	}
 #appPreView .logo	{padding:24px; text-align:center;}
 #appPreViewProgressBar	{margin:12px 0;}
-#loader	{color:#ffffff; background:#ce004e; padding:24px;}
+#loader	{color:#393b42; background:#e4e4e4; padding:24px;}
 
 #appPreViewBG	{position:absolute; top:0; left:0; right:0; bottom:0; z-index:9999;}
 #mainContentArea	{min-height:300px;}
@@ -34,8 +33,8 @@ body {
 
 
 
-a	{color:#a3033d;}
-a:hover	{color:#666666;}
+a	{color:#555555;}
+a:hover	{color:#393b42;}
 
 .gridTable tr:nth-child(odd)	{background:#ffffff;}
 .gridTable tr:nth-child(event)	{background:#F0F0F0;}
@@ -55,20 +54,20 @@ HEADER
 /* links above logo/search */
 .topNav {
 	height: 34px;
-	background: #a3033d;
-	color: white;
-	font-size:.75em;
+	background: #e4e4e4;
+	color: #393b42;
+	font-size:.9em;
 	line-height:34px;
 	}
 
-.topNav a	{color:#ffffff; text-decoration:none; padding:0 12px;}
+.topNav a	{color:#393b42; text-decoration:none; padding:0 12px;}
 
+/* logo and search */
 
 .logoSearchContainer {	
-	background: white;
 	margin-left: auto;
   	margin-right: auto;
-	padding: 20px 0;
+	padding: 16px 0;
 	}
 
 
@@ -81,7 +80,13 @@ HEADER
 	float: right;
 	height: 20px;	
 	}
-
+.searchBarQuestions{
+	color: #555555;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 #searchBar {
 	height: 29px;
 	width: 275px;
@@ -101,7 +106,7 @@ HEADER
 /* links under logo and search */
 
 .mainNavContainer	{
-	background: #a3033d;
+	background: #393b42;
 	height: 34px;
 	position:relative;
 	overflow:visible;
@@ -109,12 +114,8 @@ HEADER
 	}
 
 .mainNavContainer ul, .mainNavContainer li	{list-style:none; margin:0; padding:0;}
-.mainNavContainer ul.topLinks li	{width:20%; float:left; display:block;}
+.mainNavContainer ul.topLinks li	{width:10%; float:left; display:block;}
 
-.mainNavContainer a:hover	{
-	color: #a3033d;
-	background:#fff;
-	}
 
 .mainNavContainer a {
 	font-weight: bold;
@@ -144,8 +145,8 @@ HEADER
 	column-gap:40px;
 	}
 #tier1categories	{margin:12px;}
-#tier1categories li	{color:#a3033d; padding:4px; cursor:pointer;}
-#tier1categories li:hover	{color:#fff; background-color:#a3033d;}
+#tier1categories li	{color:#73cc59; padding:4px; cursor:pointer;}
+#tier1categories li:hover	{color:#f0f5ee; background-color:#73cc59;}
 
 
 
@@ -157,22 +158,22 @@ FOOTER
 
 **************************************************************************************/
 
-
+/*
 .footerNewsletter {
-	background: #ce004e;
+	background: #393b42;
 	height: 60px;
 	margin-left: auto;
   	margin-right: auto;
 	padding-bottom: 10px;
 }
-
 .footerNewsletter .marginTop	{
 	margin-top:20px;
 	}
+*/
 #subscribeFrm	{margin:0 34px;}
 #upToDate {
 	padding-top:4px;
-	color: white;
+	color: #f0f5ee;
 	line-height:29px;
 	height:29px;
 	font-weight:bold;
@@ -189,37 +190,36 @@ FOOTER
 	height: 35px;
 	width: 70px;
 	text-align: center;
-	background: #a3033d;
+	background: #e4e4e4;
 	border: 0 none;
-	color: white;
+	color: #393b42;
 	}
 
 .footerLinkStyle {
-	color: white;
+	color: #26447c;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 .footerLinkStyle:hover {
-	color: white;
-	text-decoration: underline;
+	color: #2e74b7;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 #footerLinks {
-	background: #a3033d;
+	background: #e4e4e4;
 	margin-left: auto;
   	margin-right: auto;
 }
 
 .listHead {
 	font-family: "Arial Black", Gadget, sans-serif;
-	color: white; font-weight:bold;
+	color: #555555; font-weight:bold;
 }
 
 .bottomLinkListContainer {
 	float: left;
-	width:25%;	
+	width:19%;	
 	padding: 5px;
 }
 
@@ -295,8 +295,8 @@ HOMEPAGE
 	}
 
 
-.listHeader	{line-height:34px; padding:0 12px; margin-bottom:6px; background-color: #F0F0F0; color:#ce004e;}
-.listHeader a	{color:#ce004e;}
+.listHeader	{line-height:34px; padding:0 12px; margin-bottom:6px; background-color: #E4E4E4; color:#555555; border: 1px solid #777777;}
+.listHeader a	{color:#555555;}
 
 
 #scoop {
@@ -329,9 +329,9 @@ HOMEPAGE
 	height: 35px;
 	width: 70px;
 	text-align: center;
-	background: #a3033d;
+	background: #393b42;
 	border: 0 none;
-	color: white;
+	color: #f0f5ee;
 	margin-top: 10px;
 	margin-right: 10px;
 	float: right;
@@ -387,7 +387,8 @@ li.catListItem	{width:25%; margin:0 0 24px 0;}
 .catListItem .catName	{
 	position:absolute; bottom:0; left:0; right:0; background:#ffffff; font-size:.95em; color:#000000; z-index:25;
 	filter: alpha(opacity=50);
-	opacity: 0.5;
+	opacity: 0.8;
+	font-weight:bold;
 	padding:6px;
 	}
 
@@ -397,7 +398,7 @@ Product list styles
 
 */
 
-li.productListItem	{width:25%; margin:0 0 24px 0;}
+li.productListItem	{width:23%; margin:0px 10px 24px 10px; background: #ffffff;}
 .productListItem .cents	{
 	position: relative; bottom: 0.2em; font-size: 70%;	
 	}
@@ -411,7 +412,7 @@ li.productListItem	{width:25%; margin:0 0 24px 0;}
 	padding:6px;
 	}
 /* this height only impacts prodlists, not results, for addition of reviews summary */
-.productList li.productListItem 	{height:270px;}
+.productList li.productListItem 	{height:260px;}
 
 .productListItem .priceDetail {
 	margin-top: 12px;		

@@ -1,0 +1,283 @@
+.footerNewsletter {
+	width: 195px;
+	height: 175px;
+	float: right;
+	text-align: center;
+	color: #555555;
+	margin-top: 20px;
+	}
+.footerNewsletter ul{
+	padding:0px;
+}
+#social a{
+	line-height:40px;
+}
+#social img{
+	margin: 4px 6px 4px 0px;
+}
+.socialLinks{
+	margin: 12px 0px;
+}
+.sideline{
+	background: #E4E4E4;
+	padding:12px;
+	width: 18%;
+	margin: 10px 0px;
+}	
+.sideline a {
+	font-size: 18px;
+}	
+button.quickView	{
+	border:1px solid #555555; 
+	border-radius: 6px;
+	background:#e4e4e4 no-repeat; 
+	color: #393b42;
+	padding:0; 
+	margin:0; 
+	width:84px; 
+	height:26px; 
+	z-index:95; 
+	cursor:pointer;
+	font-size: 13px;
+}
+.addToCartButton	{
+	cursor:pointer;
+	border:1px solid #555555 !important;
+	border-radius: 6px;
+	background:#e4e4e4 no-repeat !important; 
+	color: #393b42;
+	padding:0; 
+	margin:0; 
+	width:120px;
+	height:40px;
+	z-index:95;
+	font-size:1em;
+	}
+.mainNavContainer div {
+	font-weight: light;
+	text-decoration:none;
+	font-size:16px;
+	color: 	#F0F5ee;
+	line-height: 28px;
+	}
+.mainNavContainer div:hover	{
+	color: #73cc59;
+	}
+.mainNavContainer .mainNavLinks{
+	display:block;
+	position:relative;
+}
+.mainNavContainer > div{float:left; position:relative;}
+.mainNavLine{
+	border-right: 2px solid #555555;
+	height: 30px;
+	margin-top:2px;
+	padding: 0px 16px;
+}
+.lastNavOption{
+	padding: 2px 16px;
+}
+.dropdown {
+	overflow: hidden;
+	background: #292b32;
+	position: absolute;
+	z-index:999;
+	top:34px;
+	left: 0px;
+	height: 0px;
+	border-radius: 0px 0px 7px 7px;
+}
+.dropdown > div {
+    border-top: 2px solid #555555;
+    font-size: 14px;
+    line-height: 33px;
+    padding: 0 12px;
+}
+.hoverout {
+	position:absolute;
+	width:0px;
+	background: #292b32;
+	overflow:hidden;
+	border-radius: 0px 0px 7px 7px;
+	
+}
+.hoverout div{
+    border-top: 2px solid #555555;
+    padding: 0 35px;
+	font-size: 14px;
+    line-height: 33px;
+}
+
+.mainBannerContainer {
+	overflow:hidden;
+	margin:3px 0px 10px 0px;
+	position:relative;
+	}
+
+.mainBannerGraphic {
+	width: 750px;	
+	height: 280px;
+	position:absolute; left:0; top:0;
+	overflow:hidden;
+	}
+
+.mainBannerSidebar {
+	width: 260px;
+	height: 280px;
+	float: right;
+	}
+.mainBannerSideBarBottom{	
+	margin-top:10px;
+}
+.mainBannerBottom{
+	display:inline-block;
+	margin-top: 9px;
+}
+.mainBannerBottom img{
+	width: 335px;
+	margin:0px 1px;
+}
+
+.bottomBanner img{
+	width:100%;
+}
+.listHeader{
+	border-radius:6px;
+}
+.productPage h1	{font-size:1.2em; margin-bottom:12px;}
+
+.similarItems h2 {
+    background: none repeat scroll 0 0 #E4E4E4;
+	border:1px solid #393b42;
+    border-radius: 6px;
+    margin: 10px 0;
+    padding: 3px 8px;
+	color: #393b42;
+    font-size: 22px;
+}
+.productListItem .imageAndTags{
+	margin-top:12px;
+}
+
+.quickviewProdName{
+	font-size: 26px;
+}
+.quickviewText h1, h2, h3, h4, h5{
+	font-size: 22px;
+}
+.quickviewText ul, p {
+	font-size: 18px;
+}
+.pageDescText {
+	font-size: 10px;
+}
+.evanstonMainBanner{
+	width:1020px;
+	height: 347px;
+}
+.evanstonGrandOpening h2{
+	color: #73cc59;
+    font-size: 25px;
+    margin: 9px 0;
+}
+.evanstonGrandOpening a{
+	font-size:18px;
+}
+.contentPage{
+	width: 555px;
+	float: left;
+}
+.contentPage h1{
+	color: #26447C;
+    font-size: 25px;
+    margin: 9px 0;
+}
+.contentPage h3{
+    font-size: 17px;
+    margin: 4px 0;
+}
+.contentPage p{
+	line-height: 1.35;
+	text-align: left;
+}
+.contentPageSideBar{
+	width: 432px;
+	float: right;
+}
+.contentPageSideBar img{
+	margin-top: 55px;
+}
+
+/************************************
+JQUERY UI FIX
+************************************/
+
+.ui-tabs {
+    padding: 0.2em;
+    position: relative;
+}
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: 0.2em 0.2em 0;
+}
+.ui-tabs .ui-tabs-nav li {
+    border-bottom: 0 none !important;
+    float: left;
+    list-style: none outside none;
+    margin: 0 0.2em 1px 0;
+    padding: 0;
+    position: relative;
+    top: 1px;
+    white-space: nowrap;
+}
+.ui-tabs .ui-tabs-nav li a {
+    float: left;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected, .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    margin-bottom: 0;
+    padding-bottom: 1px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+    cursor: text;
+}
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+    cursor: pointer;
+}
+.ui-tabs .ui-tabs-panel {
+    background: none repeat scroll 0 0 transparent;
+    border-width: 0;
+    display: block;
+    padding: 1em 1.4em;
+}
+.ui-tabs .ui-tabs-hide {
+    display: none !important;
+}
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+}
+.ui-helper-clearfix:after {
+    clear: both;
+}
+
+.ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text {
+    padding: 0.4em;
+    text-indent: -10000000px;
+}
+
+.ui-button .ui-button-text {
+    display: block;
+    line-height: normal;
+}
+
+/* Just broke almost every other button...
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	height: 22px;
+	padding: 1px;
+	width: 24px;
+}
+*/
+
+.ui-button-icon-only .ui-button-text { display:none;}
