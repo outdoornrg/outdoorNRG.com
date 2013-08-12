@@ -456,17 +456,6 @@ li.productListItem	{width:23%; margin:0px 10px 24px 10px; background: #ffffff;}
 
 .imageContainer > div {position:relative;}
 
-
-.addToCartButton	{
-	cursor:pointer;
-	border:0 !important;
-	background:url(app-fashion/addtobag-120x40.png) no-repeat !important; 
-	padding:0; margin:0; 
-	text-indent:-10000px; 
-	width:120px; height:40px;
-	z-index:95;
-	}
-
 button.quickView	{border:0; background:url(app-fashion/quickview-90x30.png) no-repeat; padding:0; margin:0; width:90px; height:30px; z-index:95; cursor:pointer;}
 
 
