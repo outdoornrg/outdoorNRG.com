@@ -21,7 +21,7 @@ body {
 #appPreViewProgressBar	{margin:12px 0;}
 #loader	{color:#283f33; padding:24px;}
 
-#appPreViewBG	{position:absolute; top:0; left:0; right:0; bottom:0; z-index:9999; background-color:#ddc7ae;}
+#appPreViewBG	{position:absolute; top:0; left:0; right:0; bottom:0; z-index:9999;}
 #mainContentArea	{min-height:300px;}
 
 
