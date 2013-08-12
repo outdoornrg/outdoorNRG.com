@@ -365,9 +365,8 @@ CART
 
 .checkoutButton	{
 	cursor:pointer;
-	border:0 !important;
 	padding:0; margin:0; 
-	width:150px; height:50px;
+	width:140px; height:40px;
 	z-index:95;
 	}
 
