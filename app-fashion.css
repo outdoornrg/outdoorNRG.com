@@ -73,12 +73,12 @@ HEADER
 
 /* logo and search */
 
-#logo {float: left; width:375px; height:100px;}
+#logo {float: left; width:200px; height:70px;}
 
 .searchBarContainer {
-	margin-top: 6px;
+	margin-top: 2px;
 	float: right;
-	height: 70px;	
+	height: 65px;	
 	}
 .searchBarQuestions{
 	color: #f6f7f6;
