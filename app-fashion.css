@@ -12,16 +12,16 @@ body {
 
 
 #appPreView	{
-	margin:10% 25%; padding:0px; position:absolute; z-index:10000; background:#e4e4e4;
-	border:6px solid #393b42;
+	margin:10% 27%; padding:0px; position:absolute; z-index:10000; background:#f6f7f6;
+	border:6px solid #283f33;
 	-webkit-box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, .3);
 	box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, .3);
 	}
 #appPreView .logo	{padding:24px; text-align:center;}
 #appPreViewProgressBar	{margin:12px 0;}
-#loader	{color:#393b42; background:#e4e4e4; padding:24px;}
+#loader	{color:#283f33; padding:24px;}
 
-#appPreViewBG	{position:absolute; top:0; left:0; right:0; bottom:0; z-index:9999;}
+#appPreViewBG	{position:absolute; top:0; left:0; right:0; bottom:0; z-index:9999; background-color:#ddc7ae;}
 #mainContentArea	{min-height:300px;}
 
 
