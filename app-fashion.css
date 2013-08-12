@@ -366,9 +366,7 @@ CART
 .checkoutButton	{
 	cursor:pointer;
 	border:0 !important;
-	background:url(app-fashion/checkout-150x50.png) no-repeat !important; 
 	padding:0; margin:0; 
-	text-indent:-10000px; 
 	width:150px; height:50px;
 	z-index:95;
 	}
