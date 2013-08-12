@@ -106,7 +106,7 @@ HEADER
 /* links under logo and search */
 
 .mainNavContainer	{
-	background: #362a19;
+	background: url(images/repeatMainNavBar.jpg) repeat-x;
 	height: 34px;
 	position:relative;
 	overflow:visible;
