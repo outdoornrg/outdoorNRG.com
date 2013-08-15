@@ -323,7 +323,7 @@ BREADCRUMB
 .breadcrumb li:after	{content:" \00BB "; padding-left:10px; font-size:10px; font-weight:bold; color:#999999;}
 .breadcrumb li:last-child:after	{content:"";}
 
-.breadcrumb li:last-child a	{color:#666666; text-decoration:none; font-weight:bold; cursor:text;}
+.breadcrumb li:last-child a	{ text-decoration:none; font-weight:bold; cursor:text;}
 
 
 
