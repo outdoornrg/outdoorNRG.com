@@ -144,12 +144,12 @@ button.quickView	{
 .productPage h1	{font-size:1.2em; margin-bottom:12px;}
 
 .similarItems h2 {
-    background: none repeat scroll 0 0 #E4E4E4;
-	border:1px solid #393b42;
+    background: none repeat scroll 0 0 #ddc9a8;
+	border:1px solid #362a19;
     border-radius: 6px;
     margin: 10px 0;
     padding: 3px 8px;
-	color: #393b42;
+	color: #362a19;
     font-size: 22px;
 }
 .productListItem .imageAndTags{
