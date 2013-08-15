@@ -42,10 +42,10 @@ button.quickView	{
 }
 .addToCartButton	{
 	cursor:pointer;
-	border:1px solid #555555 !important;
+	border:1px solid #362a19;
 	border-radius: 6px;
-	background:#e4e4e4 no-repeat !important; 
-	color: #393b42;
+	background:#ddc9a8 no-repeat ; 
+	color: #362a19;
 	padding:0; 
 	margin:0; 
 	width:120px;

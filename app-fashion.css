@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background-color:#eadecb;	font-family: 'PT Sans', sans-serif; color:#666666;
+	background-color:#eadecb;	font-family: 'PT Sans', sans-serif; color:#362a19;
 }
 
 #appView {
@@ -33,8 +33,8 @@ body {
 
 
 
-a	{color:#555555;}
-a:hover	{color:#393b42;}
+a	{color:#362a19;}
+a:hover	{color:#283F33;}
 
 .gridTable tr:nth-child(odd)	{background:#ffffff;}
 .gridTable tr:nth-child(event)	{background:#F0F0F0;}

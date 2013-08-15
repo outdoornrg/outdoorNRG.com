@@ -167,9 +167,6 @@
 .ui-state-active .ui-icon {
 	background-image: url(images/ui-icons_362a18_256x240.png);
 }
-.ui-state-highlight .ui-icon {
-	background-image: url(images/ui-icons_283f33_256x240.png);
-}
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
 	background-image: url(images/ui-icons_cd0a0a_256x240.png);
