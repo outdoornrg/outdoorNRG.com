@@ -52,7 +52,45 @@ button.quickView	{
 	height:40px;
 	z-index:95;
 	font-size:1em;
+	}	
+	
+.searchBarContainer {
+	margin-top: 2px;
+	float: right;
+	height: 65px;	
 	}
+.productSearchForm{
+	position: relative;
+}	
+.searchBarQuestions{
+	color: #f6f7f6;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#searchBar {
+	height: 29px;
+	width: 275px;
+	}
+
+#searchButton {
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
+	background: url(images/repeatMainNavBar.jpg) repeat-x #362a19;
+	border: 0 none;
+	color: white;
+	float: none;
+	position: relative;
+	right: 0px;
+	top: 0px;
+	}
+	
+#searchButton:hover {
+	color: #ddc9a8;
+}	
+
 .mainNavContainer div {
 	font-weight: light;
 	text-decoration:none;

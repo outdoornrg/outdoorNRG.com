@@ -75,33 +75,6 @@ HEADER
 
 #logo {float: left; width:200px; height:70px;}
 
-.searchBarContainer {
-	margin-top: 2px;
-	float: right;
-	height: 65px;	
-	}
-.searchBarQuestions{
-	color: #f6f7f6;
-    float: right;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-#searchBar {
-	height: 29px;
-	width: 275px;
-	}
-
-#searchButton {
-	float: right;
-	height: 35px;
-	text-align: center;
-	font-weight: bold;
-	background: #362a19;
-	border: 0 none;
-	color: white;
-	}
-
 
 /* links under logo and search */
 
