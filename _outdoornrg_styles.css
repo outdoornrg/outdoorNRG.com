@@ -72,10 +72,10 @@ button.quickView	{
 	border-right: 2px solid #9c7d53;
 	height: 30px;
 	margin-top:2px;
-	padding: 0px 16px;
+	padding: 0px 26px;
 }
 .lastNavOption{
-	padding: 2px 16px;
+	padding: 2px 0px 0px 26px;
 }
 .dropdown {
 	overflow: hidden;
