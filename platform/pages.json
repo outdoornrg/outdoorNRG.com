@@ -1,0 +1,511 @@
+{
+   "NRG/cart" : {
+      "featured" : "New NRG Items:",
+      "fl" : "3010",
+      "featured2" : "Other Great Items:",
+      "prodlist2_custom" : "&SORTBY=NONE&FORMAT=CUSTOM&SRC=LIST%3A%24nrg-best&ALTERNATE=0&SHOWSKU=&",
+      "prodlist" : "&SORTBY=NONE&FORMAT=CUSTOM&SRC=LIST%3A%24nrg-new_items&ALTERNATE=0&SHOWSKU=&"
+   },
+   ".nrg.powersports.pwc_s.z_by_model.yamaha_gp1200" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.zz_home___cabin.home___cabin_decor.thermometers" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.pwc_s.z_by_model.yamaha_xlt1200" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.hunting___shooting" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.knives.z_shop_by_brand.leatherman" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.outdoor_gear.optics" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.knives" : {
+      "fl" : "c-20100825"
+   },
+   "NRG/return" : {
+      "fl" : "r-20090113"
+   },
+   ".srp_milling_machines.mdx-540_machines" : {
+      "banner1" : "roland/srp_topline",
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.pwc_s.z_by_model.yamaha_gp800" : {
+      "fl" : "c-20100825"
+   },
+   "RAPDIR/homepage" : {
+      "banner2" : "R/3dreseller1",
+      "newsletter_desc" : "newsletter click here",
+      "fl" : "c-20090616",
+      "banner3" : "roland/roland_ar200",
+      "banner2_link" : "http://www.rapid-direction.com/results.cgis?catalog=&keywords=3d+systems",
+      "dynimage1" : "images=R/rd_banner_600x250\nlinks=\npauses=2000\nblank_behavior=none\n",
+      "banner4_link" : "http://www.rapid-direction.com/category/jewelry_solutions",
+      "banner1" : "R/alibre_reseller",
+      "banner3_link" : "http://www.rapid-direction.com/results.cgis?catalog=&keywords=roland&x=0&y=0",
+      "banner5_link" : "http://www.rapid-direction.com/contact_us.cgis",
+      "banner4" : "R/jewelrysol3.jpg",
+      "banner5" : "R/rdi_questions2",
+      "banner1_link" : "http://www.rapid-direction.com/results.cgis?catalog=&keywords=alibre"
+   },
+   "NRG/privacy" : {
+      "fl" : "30"
+   },
+   "FASTRP/return" : {
+      "fl" : "r-20090113"
+   },
+   ".nrg.powersports.atv_accessories" : {
+      "fl" : "c-20100825"
+   },
+   ".drinksleevz.consumer_productz" : {
+      "fl" : "1038",
+      "picture1" : "sleevz/sleevz_fun1.jpg"
+   },
+   ".cad___cam_products" : {
+      "banner1" : "headers/ali_geo_net",
+      "fl" : "c-20080701",
+      "prodlist_custom" : "&SORTBY=PRICE&FORMAT=CUSTOM&SRC=&ALTERNATE=0&SHOWSKU=&"
+   },
+   ".v-flash_3d_printers.materials___consumables" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.pwc_s.intake_grates" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.pwc_s.z_by_model.yamaha_xl1200ltd" : {
+      "fl" : "c-20100825"
+   },
+   ".jewelry_solutions" : {
+      "banner1" : "R/jewelry_topline.jpg",
+      "fl" : "c-20080701",
+      "description" : "Let Rapid Direction help take your Jewelry Manufacturing in a New Direction!\n\n\nHave our experienced staff help determine the best methods for your needs. Whether you are looking to purchase equipment and create the best quality patterns in house or you would like to purchase finished patterns, we can help!\n\n\nWe sell and utilize the best jewelry pattern techniques available, Come see them in action at our Ohio Headquarters or soon in our new Chicago, ILL office.\n\n\nContact us at toll-free at 855-890-9292 or email at: sales@rapid-direction.com"
+   },
+   ".cad___cam_products.geomagic" : {
+      "banner1" : "geomagic/installscreens_lrg",
+      "widebanner_top1" : "ALT=Rapid+Driection+Geo+Magic&IMG=geomagic%2finstallscreens_lrg&LINK=",
+      "fl" : "c-20080701"
+   },
+   ".srp_milling_machines.mdx-15_machines" : {
+      "fl" : "c-20080701"
+   },
+   "NRG/search" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.powersports.pwc_s" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.zz_home___cabin" : {
+      "fl" : "c-20100825"
+   },
+   ".srp_milling_machines.srp_machine_accessories" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.recreational_sports" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.powersports.pwc_s.z_by_model.yamaha_gp1200r" : {
+      "fl" : "c-20080701"
+   },
+   "SLEEVZ/contactus" : {
+      "fl" : "1502",
+      "description" : "NRG Products\n\n9233 North Dixie Dr. \n\nDayton, OH 45414 \n\n\nYou can contact us tollfree at 855-NRGFORU (855-674-3678)or email: sales@nrg-products.com"
+   },
+   ".nrg.hunting___shooting.shooting_rests" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports" : {
+      "fl" : "c-20100825"
+   },
+   "SLEEVZ/return" : {
+      "fl" : "r-20090113"
+   },
+   ".v-flash_3d_printers.v-flash_equipment" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.recreational_sports.paintball.markers.tippmann" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.knives.knife_sharpening" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.outdoor_gear.survival_gear" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.atv_accessories.exhaust_upgrades" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.hunting___shooting.gear_boxes" : {
+      "fl" : "c-20080701"
+   },
+   "RAPDIR/aboutus" : {
+      "fl" : "about_3pics"
+   },
+   ".nrg.zz_home___cabin.home___cabin_decor" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.hunting___shooting.reloading_products" : {
+      "fl" : "c-20080701"
+   },
+   ".mike" : {
+      "fl" : "c-20090113"
+   },
+   ".projet_3d_modellers.accessories" : {
+      "fl" : "c-20080701"
+   },
+   ".srp_milling_machines" : {
+      "dynimage1" : "images=roland/srp_topline\nlinks=\npauses=2000\nblank_behavior=none\n",
+      "banner1" : "roland/roland_ar200",
+      "fl" : "c-20090616"
+   },
+   ".nrg.powersports.atv_accessories.engine_upgrades" : {
+      "fl" : "c-20080701"
+   },
+   ".srp_milling_machines.mdx-40a_machines" : {
+      "banner1" : "roland/srp_topline",
+      "fl" : "c-20080701"
+   },
+   ".nrg.recreational_sports.paintball.barrels" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.hunting.optics" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.pwc_s.pwc_accessories" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.pwc_s.ride_plates" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.hunting___shooting.shooting_accessories" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.knives.fixed_blade" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.pwc_s.z_by_model" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.hunting.gear" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.knives.z_shop_by_brand" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.powersports.pwc_s.z_by_model.yamaha_gp1300r" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.pwc_s.z_by_model.gp800r" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.knives.multi-tools" : {
+      "fl" : "c-20080701"
+   },
+   ".nrgsignup" : {
+      "fl" : "1038",
+      "desc" : "<div id=\"fb-root\"></div><script src=\"http://connect.facebook.net/en_US/all.js#xfbml=1\"></script><fb:like-box href=\"http://www.facebook.com/platform\" width=\"292\" show_faces=\"true\" stream=\"true\" header=\"true\"></fb:like-box>"
+   },
+   "contactus" : {
+      "fl" : "u-20100513",
+      "description" : "Welcome to Rapid Direction!\n\n\nHere you can send a message regarding this site or a particular order. Below the contact information are links to some commonly requested pages.  The contact form is the best way to reach us electronically.\n"
+   },
+   ".nrg.powersports.trailer_accessories" : {
+      "fl" : "c-20080701"
+   },
+   ".z_used_equipment" : {
+      "banner1" : "R/rd_used_topline",
+      "fl" : "c-20080701"
+   },
+   ".nrg.hunting___shooting.handgun_cases.handgun_cases" : {
+      "fl" : "c-20080701"
+   },
+   "NRG/contactus" : {
+      "fl" : "1501",
+      "description" : "outdoorNRG\n9233 North Dixie Dr.\nDayton, OH 45414\n\n\nCall Us Tollfree at 855-NRGFORU (855-674-3678)                             \n\n\n\n\n\n\n\n\nHere you can send a message regarding this site or a particular order.  If you'd like to check the status of an order, (or cancel one that hasn't been processed), please go to the <a href=\"/customer_main.cgis\">customer account</a> page.  You can also <a href=\"/subscribe.cgis\">subscribe to our mailing list</a>."
+   },
+   ".nrg.recreational_sports.paintball.marker_accessories.barrels" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.z_outdoor_apparel.mens_hunting.shirts" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.recreational_sports.paintball.marker_accessories" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.hunting.hunting_seats___stools" : {
+      "fl" : "c-20080701"
+   },
+   "SLEEVZ/homepage" : {
+      "dynimage1" : "images=sleevz/sleevz2,sleevz/sleevz_promo1\nlinks=,\npauses=2000,5000\nblank_behavior=none\n",
+      "banner_topwide" : "ALT=&IMG=&LINK=",
+      "banner1" : "nrg/questions",
+      "fl" : "h-20111115",
+      "prodlist1_header" : "Sleevz Products",
+      "prodlist_custom" : "&SORTBY=NONE&FORMAT=CUSTOM&SRC=&ALTERNATE=3&SIZE=&SHOWSKU=&SHOWQUANTITY=0&",
+      "description" : "Promote your company, message or event with SleevZ Thermal Drink Holders! These reusable Sleeves keep you in front of customers while keeping drinks hot or cold. With highly visible, custom branding, Sleevz helps eliminate the paper waste of traditional holders and shows off your unique and trendy style.Great for business events, brand promotions, trade show giveaways, direct mail campaigns and more. Sleevz are available in a variety of colors and with embossing or printing options on both sides."
+   },
+   ".outdoornrg" : {
+      "fl" : "c-20080701"
+   },
+   ".zz_upload_files" : {
+      "fl" : "c-20080820",
+      "description2" : "<iframe style=\"margin-left:20px;background-color:#ffffff;overflow-x:hidden;display:block\" id=\"file_upload_iframe\" name=\"file_upload_iframe\" src=\"https://www.yousendit.com/v1/ibox.php?sitebox=983007&sh=3d42dd17618116c4ce1ebd64b8fd3cac&send_notification=true&custom_redirect=true\" width=\"350\" height=\"350\" marginwidth=\"0\" align=\"middle\" frameborder=\"0\" allowtransparency=\"true\"></iframe>",
+      "description" : "<iframe style=\"margin-left:20px;background-color:#ffffff;overflow-x:hidden;display:block\" id=\"file_upload_iframe\" name=\"file_upload_iframe\" src=\"https://www.yousendit.com/v1/ibox.php?sitebox=983007&sh=3d42dd17618116c4ce1ebd64b8fd3cac&send_notification=true&custom_redirect=true\" width=\"350\" height=\"350\" marginwidth=\"0\" align=\"middle\" frameborder=\"0\" allowtransparency=\"true\"></iframe>"
+   },
+   ".laser_scanners" : {
+      "banner1" : "R/scan_topline.jpg",
+      "fl" : "c-20080701",
+      "prodlist_custom" : "&SORTBY=PRICE&FORMAT=CUSTOM&SRC=&ALTERNATE=0&SHOWSKU=&SHOWQUANTITY=0&",
+      "description" : "The LPX 3D scanners are compact and enclosed, producing high-resolution digital data with a non-contact red laser and high quality optics to capture parts.\n\n\nSimply place objects in the LPX user area, close the door and press the scanner button to generate 3D data. With USB connection to PC and automated software installation, scanning can start straight from the box.\n"
+   },
+   ".nrg.hunting___shooting.ammo___accessory_cases.shotshell_cases" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.atv_accessories.z_by_make___model.yamaha_yfz450" : {
+      "fl" : "c-20080701"
+   },
+   "GETP3D/homepage" : {
+      "banner2" : "rdicompany/3dtouchfastrp_100off.jpg",
+      "banner_topwide" : "ALT=&IMG=rdicompany%2fgetprinting3dtoplinev1%2ejpg&LINK=",
+      "fl" : "h-20111115",
+      "prodlist1_header" : "Favorites",
+      "banner3" : "rdicompany/cube3qtrtext.jpg",
+      "description" : "Our goal at GetPrinting3D is to provide an array of 3D Printing solutions for consumers and business alike. ",
+      "banner2_link" : "http://www.getprinting3d.com/product/BFB-401088/3DTouch-3D-Printer-Dual-Head-Machine.html",
+      "dynimage1" : "images=fastrp/fastrpslide1.jpg,fastrp/fastrpslide2.jpg,fastrp/rdilogo_300.jpg\nlinks=,,\npauses=2000,2000,2000\nblank_behavior=none\n",
+      "banner1" : "fastrp/rdi_questions2.jpg",
+      "banner3_link" : "http://www.getprinting3d.com/category/d_personal_3d_printers.cube_3d_printer/",
+      "prodlist2_header" : "",
+      "banner_bottomwide" : "ALT=&IMG=rdicompany%2fgetprinting3dbottomv1%2ejpg&LINK=",
+      "prodlist_custom" : "&SORTBY=NONE&FORMAT=CUSTOM&SRC=&ALTERNATE=3&SIZE=&SHOWSKU=&SHOWQUANTITY=0&",
+      "image_5x1" : "fastrp/rdihome12_28_12.gif"
+   },
+   ".nrg.hunting___shooting.gun_maintenance" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.recreational_sports.paintball" : {
+      "fl" : "c-20100825"
+   },
+   ".srp_milling_machines.mdx-20_machines" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.hunting" : {
+      "fl" : "c-20100825"
+   },
+   "RAPDIR/contactus" : {
+      "fl" : "1501",
+      "description2" : "Move In A New Direction!",
+      "description" : "Welcome to Rapid Direction!\n\n\nIf you'd like to check the status of an order, please go to the <a href=\"/customer_main.cgis\">customer account</a> page.  \n\n\nIf you would like to join our mailing list, please enter your information on the form below and type \"mailing list\" in the subject area.\n\n\nCorporate Headquarters:\n\n\nRapid Direction, Inc.\n\n9233 North Dixie Dr.\n\nDayton, OH 45414\n\n\n\nLocal Phone: 937-890-9292\n\nTollfree:    855-890-9292\n\nFax:         937-890-9293\n\nEmail:       sales@rapid-direction.com\n\n\nIllinois Sales Office:\n\n 820 Davis St.\n\n Suite 421\n\n Evanston, IL 60201"
+   },
+   ".nrg.hunting___shooting.gun_safes.personal_safes" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.hunting___shooting.gun_safes" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.knives.by_brand" : {
+      "fl" : "c-20100825"
+   },
+   ".z-materials.roland_mills" : {
+      "fl" : "c-20080701"
+   },
+   "NRG/homepage" : {
+      "banner2" : "nrg/mtm",
+      "banner_topwide" : "ALT=&IMG=outdoornrg%2fnrg_mtn_980x260a%2ejpg&LINK=",
+      "fl" : "h-20111115",
+      "banner3" : "",
+      "description" : "<iframe src=\"http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fplatform&amp;width=292&amp;colorscheme=light&amp;show_faces=true&amp;stream=true&amp;header=true&amp;height=427\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:292px; height:427px;\" allowTransparency=\"true\"></iframe>",
+      "banner2_link" : "http://www.outdoornrg.com/category/nrg.hunting___shooting/",
+      "dynimage1" : "images=nrg/nrg_mtn_600x245.jpg,nrg/nrg_mtn_freeship1.jpg,nrg/nrg_mtn_freeship2.jpg,nrg/nrg_mtn_freeship1\nlinks=,,,\npauses=1000,100,1000,100\nblank_behavior=none\n",
+      "banner1" : "sog/sog.jpg",
+      "banner_bottomwide" : "ALT=&IMG=outdoornrg%2fnrg_bottomline_980x130c%2ejpg&LINK=",
+      "prodlist_custom" : "&SORTBY=NONE&FORMAT=CUSTOM&SRC=LIST%3A%24nrg-best&ALTERNATE=0&SHOWSKU=&SHOWQUANTITY=0&",
+      "banner1_link" : "http://www.outdoornrg.com/category/nrg.knives/",
+      "banner5" : "nrg/questions.jpg"
+   },
+   "SLEEVZ/privacy" : {
+      "fl" : "y-20080819",
+      "policy" : "'''About this Privacy Policy:'''\n    The entire site, or at least specific portions of this site are assisted by Zoovy technology. Zoovy has created this privacy policy as a template for customers who are using Zoovy technology with their websites. Zoovy in no way takes responsibility for the accuracy or enforcement of this policy. For a copy of Zoovy's privacy policy (which does not necessarily apply to the customers of its customers) visit http://www.zoovy.com/legal\n\nZoovy, Inc. has created this privacy statement for NRG Products in order to demonstrate our joint commitment to privacy. The following discloses the information gathering and dissemination practices for this website: \n\n''Zoovy.com tracks IP Addresses''\n    Your IP address is used to help diagnose problems with our server, and to administer the Web site, in addition your IP address is used to help identify you and your shopping cart (in conjunction with a cookie.) We also use cookies to deliver content specific to your interests and to save your password so you don't have to re-enter it each time you visit our site.\n\n''This site may contains links to other sites.''<br /> \n    NRG Products is not responsible for the privacy practices or the content of such Web sites, unless otherwise specified below your information is never shared with other companies, even those who are also using Zoovy technology. In the future Zoovy may provide you the ability to share your information across multiple websites which all utilize Zoovy technology however this will only be done at your explicit request.\n\n''This site requires Unique Identifiers.''\n    This site uses an order form for customers to request information, products, and services, it also collects visitor's contact information (like their email address), in some circumstances their unique identifiers (like their pets name, or mothers maiden name), and financial information (like their account or credit card numbers). Contact information from the order form is used to send orders and information about our company to customers. The customer's contact information is also used to get in touch with the visitor when necessary. Users may opt-out of receiving future informational mailings; see the choice/opt-out section below, users may NOT opt out of recieving order notifications, or other contacts which are deemed essiential by NRG Products .\n\n''This site requires Financial Information.''\n    Financial information that is collected is used to bill the customer for products and services. Unique identifiers (such as pets name, and mothers maiden name) are collected from Web site visitors to verify the user's identity. \n\n''This site may have Surveys and/or Contests.''\n    Our online surveys ask visitors for contact information (like their email address). We use contact data from our surveys to send the user information about our company. The customer's contact information is also used to contact the visitor when necessary. Users may opt-out of receiving future mailings; see the choice/opt-out section below. This site may also run contests in which case we may ask visitors for contact information (like their email address). Generally this information is used to verify eligibility, however we may also use contact data from our contests to send users information about NRG Products. The customer's contact information is also used to contact the visitor when necessary (for example winners). Users may opt-out of receiving future mailings; see the choice/opt-out section below. Financial information that is collected from our users is used to check the users' qualifications for registration and bill the user for products and services. \n\n''This site may contain Public Forums''\n    This site may include chat rooms, forums, message boards, and/or news groups available to its users. Please remember that any information that is disclosed in these areas becomes public information and you should exercise caution when deciding to disclose your personal information. \n\n''About our System Security''\n    This site has security measures in place to protect the loss, misuse and alteration of the information under our control. Information is stored behind a firewall, against a password protected database system. Whenever sensitive information is accessed it is transmitted using strong SSL encryption. NRG Products may keep a copy of your information on its own system using Zoovy's WebAPI system, this system may have its own security measures in place. \n\n''This site provides the choice to Opt In or Out''\n    Our site provides users the opportunity to opt-out of receiving communications from us at the point where we request information about the visitor. This site gives users the following options for removing their information from our database to not receive future communications or to no longer receive our service. Each time an information email is distributed, you have the option to use unique unsubscribe url which is attached to each outgoing email. Customers may unsubscribe at any time by simply logging into their accounts.\n\n''We provide the ability to Correct/Update YOUR information.''\n    This site gives users the following options for changing and modifying information previously provided. Simply visit the customer login area of this website.\n\n\n''Contacting the Web Site''\n    If you have any questions about this privacy statement, the practices of this site, or your dealings with this Web site, you can contact: \nBy Mail:\t NRG Products\n9233 North Dixie Dr.\n\nDayton, OH 45414 \nBy Phone:\t 855-890-9292\nor Email:\t sales@rapid-direction.com\n\nAmendments made directly by NRG Products:"
+   },
+   ".srp_milling_machines.srp_supplies" : {
+      "fl" : "c-20080701"
+   },
+   "FASTRP/aboutus" : {
+      "fl" : "about_leftpic"
+   },
+   ".nrg.hunting___shooting.shotshell_cases" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.hunting___shooting.handgun_cases.rifle___long_cases" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.zz_home___cabin.home___cabin_decor.ice_box_magnets" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.knives.z_shop_by_brand.sog" : {
+      "fl" : "c-20080701"
+   },
+   ".z-materials.v-flash" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.hunting___shooting.ammo___accessory_cases.ammo_cans" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.outdoor_gear.equipment_cases" : {
+      "fl" : "c-20080701"
+   },
+   "SLEEVZ/aboutus" : {
+      "fl" : "about_leftpic"
+   },
+   ".nrg.recreational_sports.paintball.markers" : {
+      "fl" : "c-20100825"
+   },
+   ".z-materials" : {
+      "fl" : "c-20081223"
+   },
+   ".nrg.z_outdoor_apparel.headwear" : {
+      "fl" : "c-20080701"
+   },
+   "GETP3D/contactus" : {
+      "fl" : "1501",
+      "description" : "= Rapid Direction, Inc. =\n\n== Ohio Headquarters: ==\nRapid Direction, Inc.\n\n9233 North Dixie Dr.\n\nDayton, OH 45414\n\nTollfree: 855-890-9292\n\nEmail: sales@rapid-direction.com\n\n\n== Illinois ==\ngetprinting3D\n\n820 Davis St. Suite 421\n\nEvanston, IL 60201\n\nTollfree: 855-890-9292  \n\n\nHere you can send a message regarding this site or a particular order.  If you'd like to check the status of an order, (or cancel one that hasn't been processed), please go to the <a href=\"/customer_main.cgis\">customer account</a> page.  You can also <a href=\"/subscribe.cgis\">subscribe to our mailing list</a>."
+   },
+   ".nrg.hunting___shooting.ammo___accessory_cases" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.hunting___shooting.target_shooting" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.atv_accessories.z_by_make___model" : {
+      "fl" : "c-20100825"
+   },
+   ".z-materials.projet" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.gear_boxes" : {
+      "fl" : "c-20080701"
+   },
+   "FASTRP/homepage" : {
+      "banner2" : "bits/cubead1199freeship.jpg",
+      "banner_topwide" : "ALT=&IMG=rdicompany%2fgetprinting3dtoplinev1%2ejpg&LINK=",
+      "fl" : "h-20111115",
+      "banner3" : "rdicompany/3dtouchfastrp_100off.jpg",
+      "description" : "Rapid Direction, Inc. is an Authorized Reseller for 3D Systems and Roland. <strong>Offering 3D Printing and Rapid Prototyping Solutions</strong> for Education, Product Design, DOD, Aerospace, Automotive, Architecture, Personal and Business.\n\n\n<strong>3D Printers</strong> use 3D CAD Model files to create actual 3 Dimensional objects for endless uses. Many materials are now being \"printed\"  including: Plastics (clear, tough, flexible, colored), Wax (lost-wax patterns for metal casting), Composites with full color capabilities (similar to ceramic), metals and more.\n\n\nRapid Direction also offers a full-line of 3D Printing materials for your printers, if you don't see it here please call today to find out if we carry it. 855-890-9292 ",
+      "banner2_link" : "http://www.fastrp.com/product/3D-351000/The-Cube-3D-Printer-by-3D-Systems.html",
+      "dynimage1" : "images=rdicompany/getprinting3dtoplinev1.jpg,rdicompany/fastrpslide2.jpg\nlinks=,\npauses=6000,6000\nblank_behavior=none\n",
+      "banner1" : "fastrp/rdi_questions2.jpg",
+      "banner3_link" : "http://www.fastrp.com/product/BFB-401-1090/3DTouch-3D-Printer-Dual-Head-Machine.html",
+      "banner_bottomwide" : "ALT=Learn+Stuff&IMG=rdicompany%2fgetprinting3dbottomv1%2ejpg&LINK=http%3a%2f%2fwww%2egetprinting3d%2ecom%2fcategory%2fcategory%2fzcompare",
+      "prodlist_custom" : "&SORTBY=NONE&FORMAT=CUSTOM&SRC=&ALTERNATE=0&SIZE=&SHOWSKU=&SHOWQUANTITY=0&"
+   },
+   ".v-flash_3d_printers" : {
+      "dynimage1" : "images=R/vflash_header\nlinks=\npauses=2000\nblank_behavior=none\n",
+      "banner1" : "R/3dreseller1",
+      "fl" : "c-20090616"
+   },
+   ".nrg.powersports.pwc_s.engine_upgrades" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.z_outdoor_apparel.mens_hunting" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.hunting.game_calls" : {
+      "fl" : "c-20080701"
+   },
+   ".projet_3d_modellers" : {
+      "banner1" : "R/projet_header",
+      "fl" : "c-20080701"
+   },
+   ".nrg.knives.z_shop_by_brand.smith___wesson" : {
+      "fl" : "c-20100825"
+   },
+   ".projet_3d_modellers.consumables" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.atv_accessories.body_accessories" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.pwc_s.exhaust_upgrades" : {
+      "fl" : "c-20080701"
+   },
+   "homepage" : {
+      "dynimage1" : "images=R/rd_banner_600x250.jpg\nlinks=\npauses=2000\nblank_behavior=none\n",
+      "banner2" : "roland/roland_ar200.jpg",
+      "banner1" : "3d/3d_authreseller200",
+      "fl" : "c-20090616",
+      "banner5_link" : "http://rapiddirection.zoovy.com/category/jewelry_solutions",
+      "banner3" : "alibre/alibre_reseller.jpg",
+      "description" : "-----              Move in a New Direction!                 -----",
+      "banner5" : "R/jewelrysol2"
+   },
+   "aboutus" : {
+      "fl" : "about_leftpic"
+   },
+   ".nrg.hunting___shooting.ammunition" : {
+      "fl" : "c-20100825"
+   },
+   ".projet_3d_modellers.projet_5000" : {
+      "banner1" : "3d/projet5000_topline.jpg",
+      "fl" : "c-20100513",
+      "picture1" : "3d/pj5000",
+      "description2" : "At the heart of the ProJet 5000 is the patented and proven Multi-Jet modeling technology that provides unmatched part quality with unique \"hands free\" wax support removal enabling production of finished parts with best-in-class fine feature detail and surface quality. With the largest build volume available in a high definition 3-D printer, the ProJet 5000 is designed for high productivity, factory capability in an office environment, enabling 24\\7 production of high definition parts in a small footprint. \r\n\r\n\r\nFeatures: High-volume production with part nesting and stacking Selectable build styles of High-Definition and Ultra High Definition Fast build speed Hands-free wax support removal Intelligent system monitoring Easy build management Online help feature and remote diagnosticsBenefits: High throughput Ready-to-use models Office friendly Unmatched part quality Fine feature detail Minimal finishing and post processing Compatible with VisiJet Materials Office friendly Repeatability Suitable for wide range of applications \r\n\r\n[[click here]: url=http://static.zoovy.com/merchant/rapiddirection/ProJet_5000_brochure_Engl_FINAL.pdf] for a ProJet 5000 brochure.\r\n\r\n= Features: =\r\n\r\n*High-volume production with part nesting and stacking \r\n*Selectable build styles of High-Definition and Ultra High Definition\r\n*Fast build speed Hands-free wax support removal\r\n*Intelligent system monitoring Easy build management\r\n*Online help feature and remote diagnostics\r\n\r\n= Benefits: =\r\n\r\n*High throughput Ready-to-use models Office friendly\r\n*Unmatched part quality Fine feature detail\r\n*Minimal finishing and post processing Compatible with VisiJet Materials\r\n*Office friendly\r\n*Repeatability Suitable for wide range of applications \r\n\r\n\r\nCall Rapid Direction Sales at (937)890-9292 or email: sales@rapid-direction.com for more information. \r\n \r\n \r\n\r\n",
+      "description" : "= 3D Systems ProJet 5000 Production System =\n\n\n\n\nThe highly productive ProJet 3-D Production System is ideal for a wide-range of applications, including concept development, design validation, form and fit analysis, molding and casting patterns, and direct investment casting of jewelry and other fine feature applications. Includes 1 year Warranty and 5 year print head warranty.\n\n\nThe ProJet 5000 3-D Production System is ideal for mass-production of both large and small high definition hard plastic models and prototypes for a wide variety of applications including concept development, design verification, form-fit\u00ef\u00bf\u00bd testing, physical/functional testing, modeling/casting patterns, and product presentations. parts produced improve design communication and facilitate compressed design-to-manufacturing cycle time and higher quality final parts.\n\n\n\n\n\n\n\n\n"
+   },
+   ".nrg.hunting___shooting.handgun_cases" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.zz_home___cabin.home___cabin_decor.tin_signs" : {
+      "fl" : "c-20080701"
+   },
+   "RAPDIR/privacy" : {
+      "fl" : "31"
+   },
+   ".informational" : {
+      "fl" : "c-20080114"
+   },
+   ".nrg.hunting___shooting.ammo___accessory_cases.choke_tube_cases" : {
+      "fl" : "c-20080701"
+   },
+   ".bits_from_bytes_3d_modelers" : {
+      "widebanner_top1" : "ALT=&IMG=bits%2frapman&LINK=",
+      "fl" : "c-20100825"
+   },
+   ".nrg.hunting.decoys" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.hunting___shooting.archery_cases" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.z_outdoor_apparel" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.knives.folding_knives" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.outdoor_gear" : {
+      "fl" : "c-20100825"
+   },
+   ".nrg.powersports.atv_accessories.z_by_make___model.yamaha_raptor700" : {
+      "fl" : "c-20100825"
+   },
+   ".projet_3d_modellers.projet6000" : {
+      "fl" : "c-20080701"
+   },
+   ".drinksleevz.promo_productz" : {
+      "fl" : "1038",
+      "desc" : "Promote your company, message or event with Sleevz thermal drink holders! These reusable sleeves keep you in front of customers while keeping drinks hot or cold. With highly visible, custom branding, Sleevz helps eliminate the paper waste of traditional holders and shows off your unique and trendy style. Great for business events, brand promotions, trade show giveaways, direct mail campaigns and more. Sleevz are available in various colors and with embossing or printing options on both sides.",
+      "description" : "Promote your company, message or event with Sleevz thermal drink holders! These reusable sleeves keep you in front of customers while keeping drinks hot or cold. With highly visible, custom branding, Sleevz helps eliminate the paper waste of traditional holders and shows off your unique and trendy style. Great for business events, brand promotions, trade show giveaways, direct mail campaigns and more. Sleevz are available in various colors and with embossing or printing options on both sides."
+   },
+   ".nrg.z_outdoor_apparel.mens_hunting.pants" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.outdoor_gear.flashlights" : {
+      "fl" : "c-20080701"
+   },
+   ".nrg.powersports.pwc_s.z_by_model.yamaha_gp760" : {
+      "fl" : "c-20100825"
+   }
+}
