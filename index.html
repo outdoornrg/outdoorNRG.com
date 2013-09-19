@@ -286,20 +286,12 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
 	<!-- FOOTER -->
 	
 	<!-- Old footer newsletter
-    <div class='footerNewsletter'>
-		<form action='#' name='subscribeFrm' onSubmit="app.ext.store_crm.u.handleSubscribe($(this)); return false">
-			<div id='upToDate' class=' floatLeft marginLeft marginTop marginRight'>Join and Save!</div>
-			<div class='floatLeft marginRight marginTop '>
-			<input type='text'  maxlength='50' size='30' name='fullname' class='footerFormFrm' placeholder='Full Name' />
-			</div>
-			<div class='floatLeft marginRight marginTop '>
-			<input type='email'  maxlength='50' size='30' name='login' class='footerFormFrm' placeholder='E-mail Address' />
-			</div>
-			<div class='floatLeft marginRight marginTop '>
-			<input type='submit' value='Sign Up!' id='footerSignUpButton'>
-			</div>
-		</form>
-	</div>	
+    	<div class='footerNewsletter'>
+			
+			<ul class='bottomLinkList' >
+				<li><a href='http://visitor.r20.constantcontact.com/d.jsp?llr=psx5mvcab&p=oi&m=1102377344591&sit=qxnndizdb' target="_blank" class='footerLinkStyle'><img src="images/Emailsubscribebutton1.jpg" /></a></li>
+			</ul>	
+		</div>
 	-->
 	
     <div id='footerLinks' class='clearfix'>
@@ -329,22 +321,26 @@ app.u.loadScript(app.vars.baseURL+"app-fashion-init.js");
 		<div class="bottomLinkListContainer">
 			<ul class='bottomLinkList'>
 				<li class='listHead'>Social Networks</li>
-				<li id='social'><a href='http://www.facebook.com/getprinting3d' target="_blank" class='footerLinkStyle'><img src="images/facebook_icon.png"/>Facebook</a></li>
+				<li id='social'><a href='https://www.facebook.com/pages/OutdoorNRG/160141130717005' target="_blank" class='footerLinkStyle'><img src="images/facebook_icon.png"/>Facebook</a></li>
+				<!-- Remove these comment tags and add in link to twitter page in href
+				<li id='social'><a href='' target="_blank" class='footerLinkStyle'><img src="images/twitter.png" height="35" width="35"/>Twitter</a></li>
+				-->
 			</ul>
 		</div>
-		<div class="bottomLinkListContainer">
-			<ul class='bottomLinkList'>
-				<li class='listHead' style="margin-top: 10px;">Retail Locations</li>
-				<li><a href='#' class='footerLinkStyle bindByAnchor'>Evanston, IL</a></li>
-				<li><a href='#' class='footerLinkStyle bindByAnchor'>Dayton, OH</a></li>
-			</ul>
-		</div>	
-					
+							
 		<div class='footerNewsletter'>
 			<div class='listHead'> Newsletter</div>  
-			<ul class='bottomLinkList' >
-				<li><a href='http://visitor.r20.constantcontact.com/d.jsp?llr=psx5mvcab&p=oi&m=1102377344591&sit=qxnndizdb' target="_blank" class='footerLinkStyle'><img src="images/Emailsubscribebutton1.jpg" /></a></li>
-			</ul>	
+			<form action='#' name='subscribeFrm' onSubmit="app.ext.store_crm.u.handleSubscribe($(this)); return false">
+				<div class='marginRight marginTop '>
+				<input type='text'  maxlength='50' size='30' name='fullname' class='footerFormFrm' placeholder='Full Name' />
+				</div>
+				<div class='marginRight marginTop '>
+				<input type='email'  maxlength='50' size='30' name='login' class='footerFormFrm' placeholder='E-mail Address' />
+				</div>
+				<div class='marginRight marginTop '>
+				<input type='submit' value='Sign Up!' id='footerSignUpButton'>
+				</div>
+			</form>
 		</div>
 <!--
 uncomment and set links

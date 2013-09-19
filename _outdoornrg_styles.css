@@ -1,14 +1,25 @@
-.footerNewsletter {
-	width: 195px;
-	height: 175px;
-	float: right;
-	text-align: center;
-	color: #555555;
-	margin-top: 20px;
-	}
-.footerNewsletter ul{
-	padding:0px;
+.bottomLinkListContainer {
+	float: left;
+	width:19%;	
+	padding: 5px 15px;
 }
+.footerNewsletter {
+	width: 250px;
+	height: 175px;
+	float: left;
+	padding: 20px 10px 0px 55px;
+	}
+#footerSignUpButton {
+	float:right;
+	height: 35px;
+	width: 100px;
+	font-weight: bold;
+	text-align: center;
+	background: #283f33;
+	border: 0 none;
+	border-radius: 2px;
+	color: #ffffff;
+	}
 #social a{
 	line-height:40px;
 }
