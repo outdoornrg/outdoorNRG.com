@@ -17,26 +17,16 @@
 <title>OutdoorNRG</title>
 
 <script type="text/javascript">
-var _gaq = _gaq || {'push':function(){}} //here for testing. REPLACE BEFORE DEPLOYMENT!
-var myCreole;
 
-var app = {vars:{
-	"release":"201324.a 20131111084900",  //increment this with each change. should solve caching issues. format: YYYYMMDDHHMMSS
-	"_clientid":"zmvc",
-	"checkoutAuthMode" : "passive", //can be passive, active or required
-	"baseURL":"",
-	"testURL":"http://app.outdoornrg.com/" //put your domain here. you can then test locally in firefox.
-	},u:{},rq:[]};
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5283780-9']);
+  _gaq.push(['_trackPageview']);
 
-//set base url so images, css, js, etc all load from appropriate location once deployed.
-//baseURL as blank lets loadScript function run off local copy when testing locally.
-if(document.location.protocol == 'file:')	{
-	app.vars.baseURL  = "";
-	}
-else	{
-	app.vars.baseURL = document.location.protocol+"//"+document.domain+"/";
-	}
-document.getElementsByTagName('base')[0].href = app.vars.baseURL;
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
 </script>
 
